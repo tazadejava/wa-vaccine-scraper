@@ -70,9 +70,10 @@ public class SafewayScraper extends WebsiteScraper {
 
         String loadingPhrase = "Loading calendar";
         try {
-            new WebDriverWait(webDriver, 6).until(webDriver -> !webDriver.getPageSource().contains(loadingPhrase));
+            new WebDriverWait(webDriver, 8).until(webDriver -> !webDriver.getPageSource().contains(loadingPhrase));
         } catch (TimeoutException ex) {
             ex.printStackTrace();
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
         }
 
         if (webDriver.getPageSource().contains("There is no availability at this time.")) {

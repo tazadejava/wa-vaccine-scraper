@@ -96,8 +96,13 @@ public class VaccineManager {
         }
     }
 
+    private File getVaccineHistoryFile() {
+        return new File(VaccineManager.SUBFOLDER + "/vaccine_history.json");
+    }
+
     private void saveData() {
         try {
+            //save internal data used for optimizing worker thread times
             File saveFile = new File("internalData/data.json");
 
             if(!saveFile.exists()) {
@@ -114,6 +119,14 @@ public class VaccineManager {
             data.add("totalSecondsPerUrl", gson.toJsonTree(totalSecondsPerUrl));
             data.add("totalCallsPerUrl", gson.toJsonTree(totalCallsPerUrl));
 
+            gson.toJson(data, writer);
+
+            writer.close();
+
+            //save vaccine history
+            writer = new FileWriter(getVaccineHistoryFile());
+            data = new JsonObject();
+
             JsonObject availableHistory = new JsonObject();
             for(VaccineLocation loc : availableLocationsHistory.keySet()) {
                 JsonArray locHistory = new JsonArray();
@@ -128,7 +141,6 @@ public class VaccineManager {
             data.add("locHistory", availableHistory);
 
             gson.toJson(data, writer);
-
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -201,7 +213,7 @@ public class VaccineManager {
         try {
             while(true) {
                 if(System.currentTimeMillis() - lastProxyScrapeTime >= 1000 * 60 * 10) {
-                    System.out.println("Updating proxies list...");
+//                    System.out.println("Updating proxies list...");
 //                    scrapeProxiesList();
                 }
 
