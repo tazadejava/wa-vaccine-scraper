@@ -68,9 +68,8 @@ public class SafewayScraper extends WebsiteScraper {
 
         waitUntilPageLoadsCustom("p", "ng-bind", "noSlotsAvailableForMonthErrorMessage | translate");
 
-        String loadingPhrase = "Loading calendar";
         try {
-            new WebDriverWait(webDriver, 8).until(webDriver -> !webDriver.getPageSource().contains(loadingPhrase));
+            new WebDriverWait(webDriver, 8).until(webDriver -> !webDriver.getPageSource().contains("Loading calendar") || webDriver.getPageSource().contains("There is no availability at this time."));
         } catch (TimeoutException ex) {
             ex.printStackTrace();
             return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);

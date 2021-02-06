@@ -5,6 +5,10 @@ import com.google.gson.*;
 import java.io.*;
 import java.time.LocalDateTime;
 import java.util.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Manages the scraping service overall
@@ -27,12 +31,17 @@ public class VaccineManager {
 
     private List<VaccineStatus> lastAvailableStatuses = new ArrayList<>();
 
+    private ExecutorService workerPool;
+    private List<VaccineStatusScraper> scraperPool;
+    private HashMap<VaccineStatus.VaccineAvailability, Integer> availabilityCount = new HashMap<>();
+
     public VaccineManager() {
 //        scrapeProxiesList(); //TEMP DISABLED; does not work
         proxiesList = new ArrayList<>();
         proxiesList.add("");
 
         loadData();
+        loadWorkers();
     }
 
     private void loadData() {
@@ -347,6 +356,20 @@ public class VaccineManager {
         }
     }
 
+    private void loadWorkers() {
+        availabilityCount.clear();
+        scraperPool = new ArrayList<>();
+
+        int processors = USE_MULTIPLE_THREADS ? Runtime.getRuntime().availableProcessors() : 1;
+        workerPool = Executors.newFixedThreadPool(processors);
+
+        System.out.println("CREATING " + processors + " WORKER WEBDRIVERS");
+        for(int i = 0; i < processors; i++) {
+            scraperPool.add(new VaccineStatusScraper(proxiesList.get(proxyIndex % proxiesList.size())));
+            proxyIndex++;
+        }
+    }
+
     private void scrapeStatuses(List<VaccineLocation> locations) {
         long startTime = System.currentTimeMillis();
         System.out.println("START SCRAPING!");
@@ -362,8 +385,6 @@ public class VaccineManager {
 
         System.out.println("WILL BE SCRAPING " + locations.size() + " LOCATIONS");
 
-        List<Thread> threads = new ArrayList<>();
-
         if(processors == 1) {
             System.out.println("THERE IS 1 AVAILABLE WORKER");
         } else {
@@ -375,10 +396,12 @@ public class VaccineManager {
 
         int[] finishedProcessors = new int[] {0};
 
-        HashMap<VaccineStatus.VaccineAvailability, Integer> availabilityCount = new HashMap<>();
+        availabilityCount.clear();
         availabilityCount.put(VaccineStatus.VaccineAvailability.AVAILABLE, 0);
         availabilityCount.put(VaccineStatus.VaccineAvailability.UNAVAILABLE, 0);
         availabilityCount.put(VaccineStatus.VaccineAvailability.UNKNOWN, 0);
+
+        List<Callable<String>> tasks = new ArrayList<>();
 
         for(int i = 0; i < processors; i++) {
             int startIndex = i * splitSize;
@@ -390,12 +413,20 @@ public class VaccineManager {
             }
 
             int processorNumber = i;
-            Thread thread = new Thread(new Runnable() {
+
+            tasks.add(new Callable<String>() {
                 @Override
-                public void run() {
+                public String call() throws Exception {
+                    //wait before starting
+                    try {
+                        Thread.sleep((processorNumber * 200) + (int) (Math.random() * 400));
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                    System.out.println("[WORKER " + processorNumber + "] STARTED WORKING!");
                     long startTimeThread = System.currentTimeMillis();
-                    VaccineStatusScraper scraper = new VaccineStatusScraper(proxiesList.get(proxyIndex % proxiesList.size()));
-                    proxyIndex++;
+                    VaccineStatusScraper scraper = scraperPool.get(processorNumber);
 
                     for (int j = startIndex; j < endIndex; j++) {
                         VaccineLocation loc = locations.get(j);
@@ -440,28 +471,74 @@ public class VaccineManager {
                         }
                     }
 
-                    scraper.close();
+//                    scraper.close();
 
                     finishedProcessors[0]++;
                     System.out.println("[WORKER " + processorNumber + "] DONE (" + finishedProcessors[0] + "/" + processors + ")! TOOK " + ((System.currentTimeMillis() - startTimeThread) / 1000) + " SECONDS TO COMPLETION");
+
+                    return null;
                 }
             });
 
-            thread.start();
-            threads.add(thread);
-
-            //wait before continuing
-            try {
-                Thread.sleep(800 + (int) (Math.random() * 400));
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//            workerPool.execute(new Runnable() {
+//                @Override
+//                public void run() {
+//                    long startTimeThread = System.currentTimeMillis();
+//                    VaccineStatusScraper scraper = scraperPool.get(processorNumber);
+//
+//                    for (int j = startIndex; j < endIndex; j++) {
+//                        VaccineLocation loc = locations.get(j);
+//
+//                        long startTime = System.currentTimeMillis();
+//                        VaccineStatus status = scraper.scrapeVaccineStatus(loc);
+//
+//                        availabilityCount.put(status.getAvailability(), availabilityCount.get(status.getAvailability()) + 1);
+//
+//                        if(status.getWebsiteScraperSource() != null) {
+//                            String key = status.getWebsiteScraperSource().getRequiredURLPrefix();
+//
+//                            totalSecondsPerUrl.putIfAbsent(key, 0);
+//                            totalCallsPerUrl.putIfAbsent(key, 0);
+//
+//                            totalSecondsPerUrl.put(key, totalSecondsPerUrl.get(key) + (int) ((System.currentTimeMillis() - startTime) / 1000));
+//                            totalCallsPerUrl.put(key, totalCallsPerUrl.get(key) + 1);
+//                        }
+//
+//                        if(status.getAvailability() == VaccineStatus.VaccineAvailability.AVAILABLE) {
+//                            System.out.println("[WORKER " + processorNumber + "] " + "SITE: " + loc.getUrl());
+//                            System.out.println("[WORKER " + processorNumber + "] \t" + status.toString().replaceAll("\n", "\n\t"));
+//
+//                            statuses.add(status);
+//                            lastAvailableStatuses.add(status);
+//
+//                            availableLocationsHistory.putIfAbsent(loc, new ArrayList<>());
+//                            availableLocationsHistory.get(loc).add(new AvailableVaccineLocation());
+//
+//                            //intermediate update
+//                            saveAllStatuses(statuses);
+//                            updateFileServer();
+//                        }
+//
+//                        if(status.getAvailability() != VaccineStatus.VaccineAvailability.UNKNOWN) {
+//                            //wait before continuing
+//                            try {
+//                                Thread.sleep(300 + (int) (Math.random() * 200));
+//                            } catch (InterruptedException e) {
+//                                e.printStackTrace();
+//                            }
+//                        }
+//                    }
+//
+////                    scraper.close();
+//
+//                    finishedProcessors[0]++;
+//                    System.out.println("[WORKER " + processorNumber + "] DONE (" + finishedProcessors[0] + "/" + processors + ")! TOOK " + ((System.currentTimeMillis() - startTimeThread) / 1000) + " SECONDS TO COMPLETION");
+//                }
+//            });
         }
 
         try {
-            for(Thread thread : threads) {
-                thread.join();
-            }
+            workerPool.invokeAll(tasks);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -472,6 +549,14 @@ public class VaccineManager {
         System.out.println("THERE'S " + availabilityCount.get(VaccineStatus.VaccineAvailability.AVAILABLE) + " AVAILABLE APPT(S)");
         System.out.println("THERE'S " + availabilityCount.get(VaccineStatus.VaccineAvailability.UNAVAILABLE) + " UNAVAILABLE APPT(S)");
         System.out.println("THERE'S " + availabilityCount.get(VaccineStatus.VaccineAvailability.UNKNOWN) + " UNKNOWN APPT(S)");
+    }
+
+    /**
+     * portToXVM.sh SCRIPT REQUIRES LINUX and SSHPASS installation
+     */
+    private void updateFileServer() {
+        System.out.println("UPDATING XVM SERVER");
+        executeCommand("./portToXVM.sh");
     }
 
     private void executeCommand(String command) {
@@ -505,14 +590,6 @@ public class VaccineManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    /**
-     * portToXVM.sh SCRIPT REQUIRES LINUX and SSHPASS installation
-     */
-    private void updateFileServer() {
-        System.out.println("UPDATING XVM SERVER");
-        executeCommand("./portToXVM.sh");
     }
 
     public static void updateLastUpdateTimeFile() {
