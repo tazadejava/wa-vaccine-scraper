@@ -1,0 +1,2535 @@
+{
+  "lastLocationUpdateTime": "2021-02-01T12:20:32.331826",
+  "locations": [
+    {
+      "url": "",
+      "county": "Adams County",
+      "city": "Othello",
+      "name": "Columbia Basin Health Assoc - OTHELLO CLINIC",
+      "address": "1515 E. Columbia St, Othello, WA 99344",
+      "phoneNumber": "(509) 488-5256",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://www.othellocommunityhospital.org/",
+      "county": "Adams County",
+      "city": "Othello",
+      "name": "OTHELLO COMMUNITY HOSPITAL",
+      "address": "315 N 14th ave, Othello, WA 99344",
+      "phoneNumber": "kissleb@othellocommunityhospital.org",
+      "email": "",
+      "additionalDetails": "By appointment only, please call Covid vaccine line at 509-331-2676 to schedule an appointment."
+    },
+    {
+      "url": "",
+      "county": "Adams County",
+      "city": "Ritzville",
+      "name": "East Adams Rural Healthcare - Ritzville Medical Clinic",
+      "address": "903 S Adams St, Ritzville, WA 99169",
+      "phoneNumber": "(509) 659-1200",
+      "email": "Jpepperd@earh.org",
+      "additionalDetails": "Please call for instructions"
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx9xpqe/?\u0026e_id\u003d4985",
+      "county": "Asotin County",
+      "city": "Clarkston",
+      "name": "Costco Pharmacy",
+      "address": "301 FIFTH STREET, Clarkston, WA 99403",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://tristatehospital.org/",
+      "county": "Asotin County",
+      "city": "Clarkston",
+      "name": "TRI-STATE MEMORIAL HOSPITAL",
+      "address": "1221 Highland Ave, Clarkston, WA 99403",
+      "phoneNumber": "(509) 769-2215",
+      "email": "covidvaccineteam@tsmh.org",
+      "additionalDetails": "email/covid hotline"
+    },
+    {
+      "url": "https://prepmod.doh.wa.gov/",
+      "county": "Benton County",
+      "city": "Kennewick",
+      "name": "Benton County Fairgrounds",
+      "address": "1500 S Oak St, Kennewick, WA 99336",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "This is a DOH Mass Vaccination Site. Vaccine by appointment only. The fastest way to get an appointment is to go online to schedule one. If you are unable to use the online tool you can call us at 1-800-525-0127.\nOnly people living or working in Washington are eligible for vaccination at this site.  Please bring a picture ID; a letter or statement that shows your Washington address; or a voucher from your employer, health care provider, religious institution, school or other official agency that shows you live or work in Washington."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxbqvnc/?\u0026e_id\u003d4973",
+      "county": "Benton County",
+      "city": "Kennewick",
+      "name": "Costco Pharmacy",
+      "address": "8505 WEST GAGE BLVD, Kennewick, WA 99336",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.onscenemed.com/",
+      "county": "Benton County",
+      "city": "Kennewick",
+      "name": "ON SCENE MEDICAL SERVICES",
+      "address": "7511 West Arrowhead Ave. STE G, Kennewick, WA 99336",
+      "phoneNumber": "Info@onscenemed.com",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyKennewick",
+      "county": "Benton County",
+      "city": "Kennewick",
+      "name": "SAFEWAY #27-0335",
+      "address": "2825 W Kennewick Ave, Kennewick, WA 99336",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "https://www.prosserhealth.org/",
+      "county": "Benton County",
+      "city": "Prosser",
+      "name": "PMH MEDICAL CENTER",
+      "address": "723 Memorial Street, Prosser, WA 99350",
+      "phoneNumber": "509-788-6035",
+      "email": "connect@prosserhealth.org",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://providencecovidvaccinewamt.squarespace.com/kadlec",
+      "county": "Benton County",
+      "city": "Richland/ Kennewick",
+      "name": "Kadlec - Benton County",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our website for current planning, scheduling links, and current phase information."
+    },
+    {
+      "url": "https://www.lakechelancommunityhospital.com/",
+      "county": "Chelan County",
+      "city": "Chelan",
+      "name": "LK CHELAN COMMUNITY HOSPITAL",
+      "address": "503 E Highland, Chelan, WA 98816",
+      "phoneNumber": "509-682-6115",
+      "email": "ems@lcch.net",
+      "additionalDetails": ""
+    },
+    {
+      "url": "",
+      "county": "Chelan County",
+      "city": "Leavenworth",
+      "name": "CASCADE MEDICAL FAMILY PRACTICE",
+      "address": "817 Commercial, Leavenworth, WA 98826",
+      "phoneNumber": "509-548-2517",
+      "email": "covidvaccine@cascademedical.org",
+      "additionalDetails": "Send email or call."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SavonPharmacyWenatchee",
+      "county": "Chelan County",
+      "city": "Wenatchee",
+      "name": "ALBERTSON\u0027S PHARMACY #3412",
+      "address": "1128 N Miller St, Wenatchee, WA 98801",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please visit our link to schedule. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Chelan County",
+      "city": "Wenatchee",
+      "name": "CENTRAL WASHINGTON HOSPITAL",
+      "address": "1201 S. Miller St, Wenatchee, WA 98801",
+      "phoneNumber": "509-663-8711",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please call 509-663-8711 to schedule an appointment. If there are no appointments upon the time of call, all appointments have been filled. Additional clinic dates will be added when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Chelan County",
+      "city": "Wenatchee",
+      "name": "Columbia Valley Community Health",
+      "address": "600 Orondo, Wenatchee, WA 98801",
+      "phoneNumber": "ResponseTeam@cvch.org",
+      "email": "",
+      "additionalDetails": "Email for scheduling assistance"
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxb2gx2/?\u0026e_id\u003d5015",
+      "county": "Chelan County",
+      "city": "Wenatchee",
+      "name": "Costco Pharmacy",
+      "address": "375 HIGHLINE DRIVE SOUTH, Wenatchee, WA 98802",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses"
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyWenatchee",
+      "county": "Chelan County",
+      "city": "Wenatchee",
+      "name": "SAFEWAY #27-1449",
+      "address": "501 N Miller St, Wenatchee, WA 98801",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please visit our link to schedule. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine"
+    },
+    {
+      "url": "https://prepmod.doh.wa.gov/",
+      "county": "Chelan County",
+      "city": "Wenatchee",
+      "name": "Town Toyota Center",
+      "address": "1300 Walla Walla Ave, Wenatchee, WA 98801",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "This is a DOH Mass Vaccination Site. Vaccine by appointment only. The fastest way to get an appointment is to go online to schedule one.  If you are unable to use the online tool you can call us at 1-800-525-0127. \nOnly people living or working in Washington are eligible for vaccination at this site.  Please bring a picture ID; a letter or statement that shows your Washington address; or a voucher from your employer, health care provider, religious institution, school or other official agency that shows you live or work in Washington."
+    },
+    {
+      "url": "https://www.forkshospital.org/forks-community-hospital-status-report-for-forks-west-end/",
+      "county": "Clallam County",
+      "city": "Forks",
+      "name": "Forks Community Hospital",
+      "address": "530 Bogachiel Way, Forks, WA 98331",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "We are currently offering weekend clinics on Fridays and Saturdays in the community. Our website will be updated with information as needed. It will all be first come, first served at our community events as we do not have a way to do appointments at this time."
+    },
+    {
+      "url": "http://www.clallam.net/HHS/",
+      "county": "Clallam County",
+      "city": "Port Angeles",
+      "name": "Clallam County Health and Human Services",
+      "address": "111 E. 3rd St., Port Angeles, WA 98363",
+      "phoneNumber": "360-417-2430",
+      "email": "publichealth@co.clallam.wa.us",
+      "additionalDetails": "Please contact the Clallam County Health Department to schedule."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxcbbkx/?\u0026e_id\u003d5051",
+      "county": "Clallam County",
+      "city": "Sequim",
+      "name": "Costco Pharmacy",
+      "address": "955 WEST WASHINGTON ST., Sequim, WA 98382",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "Clallam County",
+      "city": "Sequim",
+      "name": "QFC",
+      "address": "990 B E WASHINGTON, Sequim, WA 98382",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine"
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Clark County",
+      "city": "Battle Ground",
+      "name": "Sea Mar - Battleground",
+      "address": "118 S Parkway Ave, Battle Ground, WA 98604",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/ClarkCounty",
+      "county": "Clark County",
+      "city": "Ridgefield",
+      "name": "Clark County Fairgrounds",
+      "address": "17402 NE Delfel Rd, Ridgefield, WA 98642",
+      "phoneNumber": "1-800-525-0127, press # or 888-856-5816",
+      "email": "",
+      "additionalDetails": "This is a DOH Mass Vaccination Site. Vaccine by appointment only. The fastest way to get an appointment is to go online to schedule one.  If you are unable to use the online tool you can call us at 1-800-525-0127. \nOnly people living or working in Washington are eligible for vaccination at this site.  Please bring a picture ID; a letter or statement that shows your Washington address; or a voucher from your employer, health care provider, religious institution, school or other official agency that shows you live or work in Washington.\n "
+    },
+    {
+      "url": "https://clark.wa.gov/public-health/covid-19-vaccine",
+      "county": "Clark County",
+      "city": "Vancouver",
+      "name": "Clark County Public Health",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "To assist Phase Finder eligible individuals and to avoid overburdening our hospitals and other vaccination sites, Clark County Public Health has taken up the role of collecting names and contact information and then connecting individuals with specific providers once vaccine becomes available. If you would like to use this option please go to our website."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx8eqd0/?\u0026e_id\u003d4983",
+      "county": "Clark County",
+      "city": "Vancouver",
+      "name": "Costco Pharmacy",
+      "address": "6720 NE 84TH STREET, Vancouver, WA 98665",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx715lc/?\u0026e_id\u003d4967",
+      "county": "Clark County",
+      "city": "Vancouver",
+      "name": "Costco Pharmacy",
+      "address": "19610 SE 1ST STREET, Vancouver, WA 98607",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/Safeway-Vancouver-137thMillPlain",
+      "county": "Clark County",
+      "city": "Vancouver",
+      "name": "Safeway Pharmacy 1519",
+      "address": "13719 SE Mill Plain Blvd, Vancouver, WA 98684",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Clark County",
+      "city": "Vancouver",
+      "name": "Sea Mar - East Vancouver",
+      "address": "19005 SE 34th St, Vancouver, WA 98683",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Clark County",
+      "city": "Vancouver",
+      "name": "Sea Mar - Fourth Plain",
+      "address": "6100 NE Fourth Plain Blvd, Vancouver, WA 98662",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine%C2%A0",
+      "county": "Clark County",
+      "city": "Vancouver",
+      "name": "Sea Mar - Salmon Creek",
+      "address": "14508 NE 20th Ave, Vancouver, WA 98686",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "Clark County",
+      "city": "VANCOUVER",
+      "name": "QFC",
+      "address": "3505 SE 192ND, VANCOUVER, WA 98683",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine"
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/Safeway-Washougal",
+      "county": "Clark County",
+      "city": "Washougal",
+      "name": "Safeway Pharmacy 1687",
+      "address": "3307 SE Evergreen Blvd, Bldg 5, Washougal, WA 98671",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Columbia County",
+      "city": "Dayton",
+      "name": "Columbia County Public Health",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/Safeway-Longview-OceanBeachHwy",
+      "county": "Cowlitz County",
+      "city": "Longview",
+      "name": "SAFEWAY #19-1078",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please visit this link to schedule.  If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://myfamilyhealth.org/covid-vaccine/",
+      "county": "Douglas County",
+      "city": "Bridgeport",
+      "name": "Family Health Centers",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please visit this link to schedule.  If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Ferry County",
+      "city": "Republic",
+      "name": "Ferry County Health",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please call to schedule a vaccine appointment. "
+    },
+    {
+      "url": "https://providencecovidvaccinewamt.squarespace.com/kadlec",
+      "county": "Franklin County",
+      "city": "",
+      "name": "Kadlec - Franklin County",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our link for current planning, scheduling links, and current phase information."
+    },
+    {
+      "url": "",
+      "county": "Grant County",
+      "city": "Mattawa",
+      "name": "Columbia Basin Health Assoc - WAHLUKE FAMILY HEALTH CENTER",
+      "address": "601 Government Way, Mattawa, WA 99349",
+      "phoneNumber": "(509) 488-5256",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://mattawacommunitymedicalclinic.net/",
+      "county": "Grant County",
+      "city": "Mattawa",
+      "name": "Mattawa Community Medical Clinic",
+      "address": "210 Government Road, Mattawa, WA 99349",
+      "phoneNumber": "509-932-4499",
+      "email": "d.fox@mattawaclinic.net",
+      "additionalDetails": "Appointments are required. Please visit this link to schedule.  If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.quincyhospital.org/",
+      "county": "Grant County",
+      "city": "Quincy",
+      "name": "Quincy Valley Medical Center",
+      "address": "908 10th Ave SW, Quincy, WA 98848",
+      "phoneNumber": "509-787-3531",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "http://www.healthygh.org/",
+      "county": "Grays Harbor County",
+      "city": "Aberdeen",
+      "name": "GRAYS HARBOR COUNTY HEALTH DEPARTMENT",
+      "address": "2109 Sumner Ave, Aberdeen, WA 98520",
+      "phoneNumber": "(360) 964-1850",
+      "email": "Covid19@co.grays-harbor.wa.us",
+      "additionalDetails": "Visit website and use \"contact us\" form."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyAberdeen",
+      "county": "Grays Harbor County",
+      "city": "Aberdeen",
+      "name": "SAFEWAY #27-1546",
+      "address": "221 W Heron St, Aberdeen, WA 98520",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Grays Harbor County",
+      "city": "Aberdeen",
+      "name": "Sea Mar - Aberdeen",
+      "address": "1813 Sumner Ave, Aberdeen, WA 98520",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Grays Harbor County",
+      "city": "Elma",
+      "name": "Sea Mar - Elma",
+      "address": "515 W Main St, Elma, WA 98541",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://summitpacificmedicalcenter.org/",
+      "county": "Grays Harbor County",
+      "city": "Elma",
+      "name": "SUMMIT PACIFIC HEALTHCARE",
+      "address": "600 E. Main Street, Elma, WA 98541",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please fill out our Vaccine Intake form (located on the top right of our website).  We will use the information on the intake forms to contact and schedule phase eligible individuals as allocations and available appointments allow. Thank you!                                                                "
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Grays Harbor County",
+      "city": "Ocean Shores",
+      "name": "Sea Mar - Ocean Shores",
+      "address": "597 Point Brown Ave NW, Ocean Shores, WA 98569",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "",
+      "county": "Island County",
+      "city": "Camano Island",
+      "name": "Camano Island Health System",
+      "address": "1283 Elger Bay Road, Ste A,, Camano Island, WA 98282",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccine supply is extremely limited and appointments may not be available. Check the Island County COVID-19 Vaccine website for updates."
+    },
+    {
+      "url": "",
+      "county": "Island County",
+      "city": "Coupeville",
+      "name": "WHIDBEY HEALTH MEDICAL CENTER",
+      "address": "101 North Main Street, Coupeville, WA 98239",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccine supply is extremely limited and appointments may not be available. Check the Island County COVID-19 Vaccine website for updates."
+    },
+    {
+      "url": "http://www.islanddrug.com/",
+      "county": "Island County",
+      "city": "Oak Harbor",
+      "name": "ISLAND DRUG",
+      "address": "32170 State Route 20, Oak Harbor, WA 98277",
+      "phoneNumber": "covidvaccine@islanddrug.com",
+      "email": "",
+      "additionalDetails": "Please go to our website to schedule a vaccine appointment. We have 3 locations, please indicate if you would like to receive your vaccine in Oak Harbor, Clinton, or La Connor."
+    },
+    {
+      "url": "https://www.qfc.com/i/coronavirus-update/vaccine",
+      "county": "Jefferson County",
+      "city": "Port Hadlock",
+      "name": "QFC",
+      "address": "1890 IRONDALE RD, Port Hadlock, WA 98339",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://jeffersonhealthcare.org/covid-19-vaccine/",
+      "county": "Jefferson County",
+      "city": "Port Townsend",
+      "name": "Jefferson Healthcare",
+      "address": "834 Sheridan, Port Townsend, WA 98368",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our website for instructions on how to schedule."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyPortTownsend",
+      "county": "Jefferson County",
+      "city": "Port Townsend",
+      "name": "SAFEWAY #27-0538",
+      "address": "442 W Sims Way, Port Townsend, WA 98368",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please visit our link to schedule.  If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.kingcounty.gov/depts/health/covid-19/vaccine/distribution.aspx",
+      "county": "King County",
+      "city": "Auburn",
+      "name": "Auburn General Services Administration Complex",
+      "address": "2701 C St. SW Auburn, Auburn, WA 98001",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Drive-through only. Appointments are required in advance. At this time, residents of south King County who 1) are age 75 or older, OR 2) are age 50 or older and cannot live independently, or live with and care for kin, OR 3) are providing care (paid or unpaid) for someone age 50 or older who cannot live independently, can register for an appointment at this link: www.kingcounty.gov/vaccine.\n "
+    },
+    {
+      "url": "https://www.multicare.org/covid19/vaccine/",
+      "county": "King County",
+      "city": "Auburn",
+      "name": "MultiCare - Auburn Medical Center Vaccine",
+      "address": "202 N Division St, Auburn, WA 98001",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information."
+    },
+    {
+      "url": "https://www.signupgenius.com/tabs/doh-overlake",
+      "county": "King County",
+      "city": "Bellevue",
+      "name": "Overlake Hospital Medical Center",
+      "address": "1035 116th Ave NE, Bellevue, WA 98004",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our website to schedule an appointment if you have been identified as eligible through Phase Finder. Only those with an appointment will receive the vaccine. Please do not visit our campus or clinics without an appointment.\nIf there are no dates listed on our website, it means all appointments have been filled. Please check back at a later date.  We will add more appointment times as we receive more vaccine.\nPlease do not call  to inquire about additional dates as we are experiencing extremely high call volumes. We appreciate your patience"
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Bellevue",
+      "name": "QFC",
+      "address": "3550 FACTORIA BLVD SE, Bellevue, WA 98006",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.qfc.com/i/coronavirus-update/vaccine",
+      "county": "King County",
+      "city": "Bellevue",
+      "name": "QFC",
+      "address": "1510 145TH PL SE, Bellevue, WA 98007",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyBellevue",
+      "county": "King County",
+      "city": "Bellevue",
+      "name": "Safeway Pharmacy 1600",
+      "address": "300 Bellevue Way NE, Bellevue, WA 98004",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website.  If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates. The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "King County",
+      "city": "Bellevue",
+      "name": "Sea Mar - Bellevue",
+      "address": "3801 150th Ave SE, Bellevue, WA 98006",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Bothell",
+      "name": "QFC",
+      "address": "18921 BOTHELL WAY NE, Bothell, WA 98011",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine%C2%A0",
+      "county": "King County",
+      "city": "Burien",
+      "name": "Sea Mar - Burien",
+      "address": "14434 Ambaum Blvd SW #5, Burien, WA 98166",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.chifranciscan.org/patients-and-visitors/covid-19/vaccine-information.html",
+      "county": "King County",
+      "city": "Burien",
+      "name": "St. Anne Hospital (formerly Highline Medical Center)",
+      "address": "16251 Sylvester Rd SW, Burien, WA 98166",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccine is provided by appointment only. Please visit COVID 19 Vaccine to schedule an appointment\nIf you have questions please call: 253-792-2385 8-4:30 seven days a week."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxyd41v/?\u0026e_id\u003d4989",
+      "county": "King County",
+      "city": "Covington",
+      "name": "Costco Pharmacy",
+      "address": "27520 COVINGTON WAY SE, Covington, WA 98042",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.multicare.org/covid19/vaccine/",
+      "county": "King County",
+      "city": "Covington",
+      "name": "COVINGTON MULTICARE CLINIC",
+      "address": "17700 SE 272nd St, Covington, WA 98042",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "King County",
+      "city": "Des Moines",
+      "name": "Sea Mar Community Health Center - Des Moines",
+      "address": "2781 S 242nd St, Des Moines, WA 98198",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Enumclaw",
+      "name": "QFC",
+      "address": "1009 MONROE ST, Enumclaw, WA 98022",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.chifranciscan.org/patients-and-visitors/covid-19/vaccine-information.html",
+      "county": "King County",
+      "city": "Enumclaw",
+      "name": "ST ELIZABETH HOSPITAL",
+      "address": "1455 Battersby Ave, Enumclaw, WA 98022",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccine is provided by appointment only. Please visit: COVID 19 Vaccine to schedule an appointment.\nIf you have questions please call: 253-792-2385 8-4:30 seven days a week."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx6gxv6/?\u0026e_id\u003d5031",
+      "county": "King County",
+      "city": "Federal Way",
+      "name": "Costco Pharmacy",
+      "address": "35100 ENCHANTED PARKWAY S., Federal Way, WA 98003",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "King County",
+      "city": "Federal Way",
+      "name": "SEA MAR - FEDERAL WAY",
+      "address": "31405 18th Ave S, Federal Way, WA 98003",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.chifranciscan.org/patients-and-visitors/covid-19/vaccine-information.html",
+      "county": "King County",
+      "city": "Federal Way",
+      "name": "ST FRANCIS HOSPITAL",
+      "address": "34515 9th Ave S, Federal Way, WA 98003",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccine is provided by appointment only. Please visit: COVID 19 Vaccine to schedule an appointment.\nIf you have questions please call: 253-792-2385 8-4:30 seven days a week."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxq8qyy/?\u0026e_id\u003d5061",
+      "county": "King County",
+      "city": "Issaquah",
+      "name": "Costco Pharmacy",
+      "address": "1801 10TH AVE NORTHWEST, Issaquah, WA 98027",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Issaquah",
+      "name": "QFC",
+      "address": "1540 GILMAN BLVD, Issaquah, WA 98027",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Issaquah",
+      "name": "QFC",
+      "address": "4570 KLAHANIE DR SE, Issaquah, WA 98029",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.kingcounty.gov/depts/health/covid-19/vaccine/distribution.aspx",
+      "county": "King County",
+      "city": "Kent",
+      "name": "Kent accesso ShoWare Center",
+      "address": "625 W James St, Kent, WA 98032",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required in advance. At this time, residents of south King County who 1) are age 75 or older, OR 2) are age 50 or older and cannot live independently, or live with and care for kin, OR 3) are providing care (paid or unpaid) for someone age 50 or older who cannot live independently, can register for an appointment at this link: www.kingcounty.gov/vaccine\n "
+    },
+    {
+      "url": "",
+      "county": "King County",
+      "city": "Kent",
+      "name": "Onestop Medical Clinic",
+      "address": "1314 Central Ave S, Suite 102",
+      "phoneNumber": "Kent, WA 98032",
+      "email": "covid.onestop@gmail.com",
+      "additionalDetails": "Please do not call the clinic for vaccine scheduling. For scheduling and inquiries, email us at covid.onestop@gmail.com"
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyKent",
+      "county": "King County",
+      "city": "Kent",
+      "name": "Safeway Pharmacy 1294",
+      "address": "210 Washington Ave S, Kent, WA 98032",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website.  If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "https://seamar.org/",
+      "county": "King County",
+      "city": "Kent",
+      "name": "SEA MAR - KENT",
+      "address": "233 2nd Ave S, Kent, WA 98032",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx5cjym/?\u0026e_id\u003d5003",
+      "county": "King County",
+      "city": "Kirkland",
+      "name": "Costco Pharmacy",
+      "address": "8629 120TH AVE NE, Kirkland, WA 98033",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://evergreenhealth.com/",
+      "county": "King County",
+      "city": "Kirkland",
+      "name": "EVERGREEN HOSPITAL MEDICAL CENTER",
+      "address": "12040 NE 128th St, Kirkland, WA 98034",
+      "phoneNumber": "(425) 899-4002",
+      "email": "",
+      "additionalDetails": "Please visit our website for the latest COVID-19 vaccine information and availability for the organization"
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Kirkland",
+      "name": "QFC",
+      "address": "11224 NE 124TH ST, Kirkland, WA 98034",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.lwimclinic.com/",
+      "county": "King County",
+      "city": "Mercer Island",
+      "name": "Lake Washington Internal Medicine",
+      "address": "8015 SE 28th St, Suite 310, Mercer Island, WA 98040",
+      "phoneNumber": "vaccines@lwimclinic.com",
+      "email": "",
+      "additionalDetails": "Please visit our website for the latest information on scheduling and vaccine availability. Email us if you have questions. "
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/NewcastleSafeway",
+      "county": "King County",
+      "city": "Newcastle",
+      "name": "Safeway Pharmacy 0558",
+      "address": "6911 Coal Creek Pkwy SE, Newcastle, WA 98059",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website.  If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "North Bend",
+      "name": "QFC",
+      "address": "460 E NORTH BEND WAY, North Bend, WA 98045",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please use this link to schedule. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyNorthBend",
+      "county": "King County",
+      "city": "North Bend",
+      "name": "Safeway Pharmacy 1528",
+      "address": "460 SW Mt Si Blvd, North Bend, WA 98045",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website.  If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx9e07c/?\u0026e_id\u003d4995",
+      "county": "King County",
+      "city": "Redmond",
+      "name": "Costco Pharmacy",
+      "address": "7725 188TH AVENUE NE, Redmond, WA 98052",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.evergreenmd.com/",
+      "county": "King County",
+      "city": "Redmond",
+      "name": "Evergreen Internists",
+      "address": "2217 152nd Ave NE, Suite 100",
+      "phoneNumber": "Redmond, WA 98052",
+      "email": "425-825-3900",
+      "additionalDetails": "Please email for appointment."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Redmond",
+      "name": "QFC",
+      "address": "23475 NE NOVELTY HILL RD, Redmond, WA 98053",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.qfc.com/i/coronavirus-update/vaccine",
+      "county": "King County",
+      "city": "Redmond",
+      "name": "QFC",
+      "address": "8867 161ST NE, Redmond, WA 98052",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.anesispain.com/",
+      "county": "King County",
+      "city": "Renton",
+      "name": "PAIN CARE PHYSICIANS PLLC",
+      "address": "801 SW 16th Street, Suite 121",
+      "phoneNumber": "Renton, WA 98057",
+      "email": "(206) 538-6300",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://www.uwmedicine.org/",
+      "county": "King County",
+      "city": "Renton",
+      "name": "UW- Valley Medical Center",
+      "address": "400 South 43rd Street, Renton, WA 98055",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Due to low inventory, we are unable to schedule appointments at this time.\n "
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx5hetv/?\u0026e_id\u003d4935",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Costco Pharmacy",
+      "address": "4401 FOURTH AVE S., Seattle, WA 98134",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxymp9s/?\u0026e_id\u003d4997",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Costco Pharmacy",
+      "address": "1175 NORTH 205th STREET, Seattle, WA 98133",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.solvhealth.com/book-online/AM8450",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Fred Hutch/SCCA COVID-19 Vaccine Program - South Lake Union",
+      "address": "1100 Fairview Ave N, Seattle, WA 98109",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccinating groups 1A and 1B (1st dose only). Appointments required. If no dates are listed, all appointments have been filled so please check back at a later date. Please schedule here."
+    },
+    {
+      "url": "https://www.uwmedicine.org/coronavirus/vaccine",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "HARBORVIEW MEDICAL CENTER",
+      "address": "325 9th Ave., Seattle, WA 98104",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Due to low inventory, we are unable to schedule appointments at this time."
+    },
+    {
+      "url": "https://www.ichs.com/appointment-for-the-covid-vaccine/",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "ICHS - Holly Park Medical and Dental",
+      "address": "3815 S Othello St, Seattle, WA 98118",
+      "phoneNumber": "covidvaccination@ichs.com",
+      "email": "",
+      "additionalDetails": "We are currently vaccinating Phase 1A and 1B. Please visit our website to schedule an appointment. "
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "QFC",
+      "address": "2746 NE 45TH, Seattle, WA 98105",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "QFC",
+      "address": "1531 NE 145TH, Seattle, WA 98155",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "QFC",
+      "address": "9999 HOLMAN RD NW, Seattle, WA 98117",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "QFC",
+      "address": "500 MERCER ST, Seattle, WA 98109",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyBallard",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Safeway Pharmacy 1477",
+      "address": "1423 NW Market St, Seattle, WA 98107",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website.  If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyRainier",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Safeway Pharmacy 1508",
+      "address": "3820 Rainier Ave S, Seattle, WA 98118",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website.  If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "https://www.mhealthcheckin.com/",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Safeway Pharmacy 1993",
+      "address": "2201 E Madison St, Seattle, WA 98112",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website.  If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Sea Mar - Seattle",
+      "address": "8720 14th Ave S, Seattle, WA 98108",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available"
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine%C2%A0",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Sea Mar - Seattle",
+      "address": "9685 Des Moines Memorial Dr., Seattle, WA 98108",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Sea Mar - White Center",
+      "address": "9650 15th Ave SW #100, Seattle, WA 98106",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available"
+    },
+    {
+      "url": "",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "SEATTLE CHILDREN\u0027S HOSPITAL",
+      "address": "4800 Sandpoint Way NE, M/S MB.5.420",
+      "phoneNumber": "Seattle, WA 98105",
+      "email": "communityvaccine@seattlechildrens.org",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://www.seattleidc.com/",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Seattle Infectious Disease Clinic",
+      "address": "509 Olive Way Ste 752, Seattle, WA 98101",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "We will list vaccine availability and contacts on the website."
+    },
+    {
+      "url": "https://www.covidvaccineseattle.org/",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Swedish Community COVID-19 Vaccination Clinic at Seattle University",
+      "address": "1001 E. James Way | Campion Hall, Seattle, WA 98122",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Currently vaccinating all DOH-approved phases. Please visit our website "
+    },
+    {
+      "url": "https://www.uwmedicine.org/coronavirus/vaccine",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "UW Medical Center - Northwest",
+      "address": "1550 N 115th St, Seattle, WA 98113",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Due to low inventory, we are unable to schedule appointments at this time."
+    },
+    {
+      "url": "https://www.uwmedicine.org/coronavirus/vaccine",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "UW MEDICAL CENTER -Montlake",
+      "address": "1959 NE Pacific St., Seattle, WA 98195",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Due to low inventory, we are unable to schedule appointments at this time."
+    },
+    {
+      "url": "https://www.virginiamason.org/vaccinewaitlist",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "VIRGINIA MASON - DOWNTOWN",
+      "address": "925 Seneca St., H3-PI",
+      "phoneNumber": "Seattle, WA 98101",
+      "email": "",
+      "additionalDetails": "Please visit: Vaccine Wait List Registration (virginiamason.org)"
+    },
+    {
+      "url": "https://www.seamar.org/king-medical-seattle.html",
+      "county": "King County",
+      "city": "Seattle",
+      "name": "Sea Mar Community Health Center",
+      "address": "8720 14th Ave South, Seattle , WA 98108",
+      "phoneNumber": "206-762-3730",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please visit this link to schedule.  If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine.\n "
+    },
+    {
+      "url": "https://www.ichs.com/appointment-for-the-covid-vaccine/",
+      "county": "King County",
+      "city": "Shoreline",
+      "name": "ICHS - Shoreline",
+      "address": "16549 Aurora Ave N, Shoreline, WA 98133",
+      "phoneNumber": "covidvaccination@ichs.com",
+      "email": "",
+      "additionalDetails": "We are currently vaccinating Phase 1A and 1B.  Please visit our website to schedule an appointment. "
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "King County",
+      "city": "Shoreline",
+      "name": "QFC",
+      "address": "600 NW RICHMOND BEACH RD, Shoreline, WA 98117",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "King County",
+      "city": "Snoqualmie",
+      "name": "Snoqualmie Valley Hospital",
+      "address": "9801 Frontier Ave SE, Snoqualmie, WA 98065",
+      "phoneNumber": "OccupationalHealth@SnoqualmieHospital.org",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx5myxq/?\u0026e_id\u003d4975",
+      "county": "King County",
+      "city": "Tukwila",
+      "name": "Costco Pharmacy",
+      "address": "400 COSTCO DRIVE, Tukwila, WA 97188",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "King County",
+      "city": "Vashon",
+      "name": "SEA MAR - VASHON",
+      "address": "10030 SW 210th S, Vashon, WA 98070",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://hipaa.jotform.com/210070447790048",
+      "county": "King County",
+      "city": "Vashon",
+      "name": "Vashon Pharmacy",
+      "address": "17617 Vashon Highway SW, Vashon, WA 98070",
+      "phoneNumber": "(206) 463-9118",
+      "email": "vashonpharmacycovid@gmail.com",
+      "additionalDetails": "By appointment only."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx8554q/?\u0026e_id\u003d4979",
+      "county": "King County",
+      "city": "Woodinville",
+      "name": "Costco Pharmacy",
+      "address": "24008 SNOHOMISH-WDVILLE RD, Woodinville, WA 98072",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/HaggenPharmacyWoodinville",
+      "county": "King County",
+      "city": "Woodinville",
+      "name": "Haggen Pharmacy",
+      "address": "17641 Garden Way NE, Woodinville, WA 98072",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website.  If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "",
+      "county": "Kitsap County",
+      "city": "Bremerton",
+      "name": "Saint Michael Medical Center Bremerton",
+      "address": "2520 Cherry Avenue, Bremerton, WA 98310",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccination clinic run jointly by Kitsap Public Health District, Kitsap County Emergency Operations Center, and other partners.  For more information, including dates and registration process, visit: http://kcowa.us/vaccine"
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyPoulsbo",
+      "county": "Kitsap County",
+      "city": "Poulsbo",
+      "name": "SAFEWAY PHARMACY #3148",
+      "address": "19245 10th Ave NE, Poulsbo, WA 98370",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx5r67s/?\u0026e_id\u003d5025",
+      "county": "Kitsap County",
+      "city": "Silverdale",
+      "name": "Costco Pharmacy",
+      "address": "10000 MICKELBERRY ROAD NW, Silverdale, WA 98383",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.chifranciscan.org/patients-and-visitors/covid-19/vaccine-information.html",
+      "county": "Kitsap County",
+      "city": "Silverdale",
+      "name": "St. Michael Medical Center (formerly Harrison Medical Center)",
+      "address": "1800 NW Myhre Rd, Silverdale, WA 98383",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccine is provided by appointment only. Please visit: COVID 19 Vaccine to schedule an appointment\nIf you have questions please call: 253-792-2385 8-4:30 seven days a week."
+    },
+    {
+      "url": "https://www.co.kittitas.wa.us/health/default.aspx",
+      "county": "Kittitas County",
+      "city": "Cle Elum",
+      "name": "Cle Elum Centennial Center",
+      "address": "719 E. 3rd Street, Cle Elum, WA 98926",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "APPOINTMENTS ARE REQUIRED. To schedule visit https://www.co.kittitas.wa.us/health/default.aspx\n "
+    },
+    {
+      "url": "https://www.co.kittitas.wa.us/health/default.aspx",
+      "county": "Kittitas County",
+      "city": "Ellensburg",
+      "name": "Kittitas Valley Events Center",
+      "address": "901 E. 7th Avenue, Ellensburg, WA 98926",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "APPOINTMENTS ARE REQUIRED. To schedule visit https://www.co.kittitas.wa.us/health/default.aspx"
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyEllensburg",
+      "county": "Kittitas County",
+      "city": "Ellensburg",
+      "name": "SAFEWAY #27-1630",
+      "address": "400 N Ruby St, Ellensburg, WA 98926",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Klickitat County",
+      "city": "Goldendale",
+      "name": "Klickitat County Health Department",
+      "address": "228 W Main St # Msch14, Goldendale, WA 98620",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "",
+      "county": "Klickitat County",
+      "city": "Goldendale",
+      "name": "KLICKITAT VALLEY HOSPITAL",
+      "address": "310 S. Roosevelt St, Goldendale, WA 98620",
+      "phoneNumber": "509-773-4029",
+      "email": "",
+      "additionalDetails": "Call the KVH COVID Help Line at 509-773-4029\n "
+    },
+    {
+      "url": "",
+      "county": "Klickitat County",
+      "city": "White Salmon",
+      "name": "Klickitat County Health Department",
+      "address": "501 NE Washington St, White Salmon, WA 98672",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://northshore-medical.com/",
+      "county": "Klickitat County",
+      "city": "White Salmon",
+      "name": "NORTHSHORE MEDICAL GROUP",
+      "address": "65371 HWY 14, White Salmon, WA 98672",
+      "phoneNumber": "(509) 493-2133",
+      "email": "",
+      "additionalDetails": "call"
+    },
+    {
+      "url": "",
+      "county": "Klickitat County",
+      "city": "White Salmon",
+      "name": "Skyline Hospital",
+      "address": "211 Skyline Dr, White Salmon, WA 98627",
+      "phoneNumber": "509-493-1051",
+      "email": "myskylinehealth.org",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://providencecovidvaccinewamt.squarespace.com/southwestwa",
+      "county": "Lewis County",
+      "city": "Centralia",
+      "name": "Providence - Lewis County",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our link for current planning, scheduling links, and current phase information."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyCentralia",
+      "county": "Lewis County",
+      "city": "Centralia",
+      "name": "SAFEWAY #27-1495",
+      "address": "1129 Harrison Ave, Centralia, WA 98531",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Lewis County",
+      "city": "Morton",
+      "name": "MORTON GENERAL HOSPITAL",
+      "address": "521 Adams Avenue, Morton, WA 98356",
+      "phoneNumber": "360-496-3777",
+      "email": "covidvaccine@myarborhealth.org",
+      "additionalDetails": "Given limited inventory, residents or workers within the Lewis County Hospital District #1 and those due for 2nd doses are prioritized for vaccines.   Vaccines are available by appointment only and provided to those who are eligible through Phase Finder.  Due to demand, you may be placed on an appointment waitlist at any of our clinics in Mossyrock, Morton, or Randle. \nPlease contact us at: covidvaccine@myarborhealth.org or 360-496-3777 for all COVID vaccine requests."
+    },
+    {
+      "url": "",
+      "county": "Lewis County",
+      "city": "Winlock",
+      "name": "VALLEY VIEW Health Care - WINLOCK",
+      "address": "100 Cedar Crest Drive, Winlock, WA 98596",
+      "phoneNumber": "Covidphase@vvhc.org",
+      "email": "",
+      "additionalDetails": "email"
+    },
+    {
+      "url": "",
+      "county": "Lincoln County",
+      "city": "Davenport",
+      "name": "North Basin - Davenport",
+      "address": "100 3rd Street, Suite 1",
+      "phoneNumber": "Davenport, WA 99122",
+      "email": "",
+      "additionalDetails": "Call Reception, let them know you are a 1A individual, ask to be scheduled."
+    },
+    {
+      "url": "https://www.qfc.com/i/coronavirus-update/vaccine",
+      "county": "Mason County",
+      "city": "Belfair",
+      "name": "QFC Store 101",
+      "address": "NE 201 STATE RT. 300, Belfair, WA 98528",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.masongeneral.com/",
+      "county": "Mason County",
+      "city": "Shelton",
+      "name": "Mason General Hospital",
+      "address": "901 Mountain View Dr, Shelton, WA 98584",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "We are currently vaccinating individuals who qualify for Washington’s Phase 1A. \nFor those who will be eligible in Phase B1  please check this website regularly for updates "
+    },
+    {
+      "url": "https://threerivershospital.net/covid-19-information/covid-19-vaccine/",
+      "county": "Okanogan County",
+      "city": "Brewster",
+      "name": "THREE RIVERS HOSPITAL",
+      "address": "507 Hospital Way, Brewster, WA 98812",
+      "phoneNumber": "covid@trhospital.net",
+      "email": "",
+      "additionalDetails": "Complete the registration link, and someone will reach out within the next business day to schedule."
+    },
+    {
+      "url": "https://www.nvhospital.org/covid-19",
+      "county": "Okanogan County",
+      "city": "Tonasket",
+      "name": "NORTH VALLEY HOSPITAL",
+      "address": "203 South Western, Tonasket, WA 98855",
+      "phoneNumber": "(509) 486-3191",
+      "email": "johnmcreynolds@nvhospital.org",
+      "additionalDetails": "Complete the form on the website, email it, and we will call you to schedule."
+    },
+    {
+      "url": "https://www.nvhospital.org/covid-19",
+      "county": "Okanogan County",
+      "city": "Tonasket",
+      "name": "Tonasket Family Health Centers",
+      "address": "106 South Whitcomb Avenue, Tonasket, WA 98855",
+      "phoneNumber": "(509) 486-3191",
+      "email": "",
+      "additionalDetails": "Complete the form on the website, email it, and we will call you to schedule."
+    },
+    {
+      "url": "",
+      "county": "Pacific County",
+      "city": "Ilwaco",
+      "name": "OCEAN BEACH HOSPITAL",
+      "address": "174 1st Ave N, Ilwaco, WA 98624",
+      "phoneNumber": "(360) 642-6308",
+      "email": "bslagle@oceanbeachhospital.com",
+      "additionalDetails": ""
+    },
+    {
+      "url": "",
+      "county": "Pacific County",
+      "city": "Long Beach",
+      "name": "Pacific County Health Department",
+      "address": "7013 Sandridge Rd, Long Beach, WA 98631",
+      "phoneNumber": "360-642-9407",
+      "email": "info@pacificcountyhealth.com",
+      "additionalDetails": "call our call center"
+    },
+    {
+      "url": "https://vvhc.org/",
+      "county": "Pacific County",
+      "city": "Raymond",
+      "name": "VALLEY VIEW Health Center - RAYMOND",
+      "address": "300 Ocean Ave, Raymond, WA 98577",
+      "phoneNumber": "(360) 942-3040",
+      "email": "Covidphase@vvhc.org",
+      "additionalDetails": "email"
+    },
+    {
+      "url": "",
+      "county": "Pacific County",
+      "city": "South Bend",
+      "name": "Pacific County Health Department",
+      "address": "1216 W. Robert Bush Drive, South Bend, WA 98586",
+      "phoneNumber": "(360) 875-9407",
+      "email": "info@pacificcountyhealth.com",
+      "additionalDetails": "call our call center"
+    },
+    {
+      "url": "",
+      "county": "Pend Oreille County",
+      "city": "Newport",
+      "name": "FAMILY HEALTH CENTER - NEWPORT",
+      "address": "714 W. Pine Street, Newport, WA 99156",
+      "phoneNumber": "(509) 447-6332",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyNewport",
+      "county": "Pend Oreille County",
+      "city": "Newport",
+      "name": "SAFEWAY #27-1159",
+      "address": "121 W Walnut St, Newport, WA 99156",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx9nlzg/?\u0026e_id\u003d5001",
+      "county": "Pierce County",
+      "city": "Bonney Lake",
+      "name": "Costco Pharmacy",
+      "address": "9801 204th Ave E, Bonney Lake, WA 98391",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyBonneyLake",
+      "county": "Pierce County",
+      "city": "Bonney Lake",
+      "name": "Safeway Pharmacy 0544",
+      "address": "21301 WA-410, Bonney Lake, WA 98391",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website. If there are no dates listed, all appointments have been filled. Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://kirkspharmacy.com/",
+      "county": "Pierce County",
+      "city": "Eatonville",
+      "name": "KIRK\u0027S PHARMACY",
+      "address": "104 Mashell Ave N, Eatonville, WA 98328",
+      "phoneNumber": "(360) 832-3121",
+      "email": "eatonville@kirkspharmacy.com",
+      "additionalDetails": ""
+    },
+    {
+      "url": "",
+      "county": "Pierce County",
+      "city": "Eatonville",
+      "name": "MULTICARE - EATONVILLE CLINIC",
+      "address": "118 Washington Ave N, Eatonville, WA 98328",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information."
+    },
+    {
+      "url": "https://uppediatrics.com/",
+      "county": "Pierce County",
+      "city": "Fircrest",
+      "name": "University Place Pediatric Clinic",
+      "address": "1033 Regents Blvd, Suite 102",
+      "phoneNumber": "Fircrest, WA 98466",
+      "email": "253-564-1115",
+      "additionalDetails": "Go to our website and click in the COVID-19 link"
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxc6g1g/?\u0026e_id\u003d5043",
+      "county": "Pierce County",
+      "city": "Gig Harbor",
+      "name": "Costco Pharmacy",
+      "address": "10990 HARBOR HILL DR, Gig Harbor, WA 98335",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "",
+      "county": "Pierce County",
+      "city": "Gig Harbor",
+      "name": "MultiCare- Gig Harbor Family Practice",
+      "address": "4545 Pt. Fosdick Dr, #250, Gig Harbor, WA 98335",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information. "
+    },
+    {
+      "url": "https://www.chifranciscan.org/patients-and-visitors/covid-19/vaccine-information.html",
+      "county": "Pierce County",
+      "city": "Gig Harbor",
+      "name": "ST ANTHONY HOSPITAL",
+      "address": "11567 Canterwood Blvd, Gig Harbor, WA 98332",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccine is provided by appointment only. Please visit: COVID 19 Vaccine to schedule an appointment\nIf you have questions please call: 253-792-2385 8-4:30 seven days a week.\n "
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyLakewood",
+      "county": "Pierce County",
+      "city": "Lakewood",
+      "name": "SAFEWAY #27-1645",
+      "address": "10223 Gravelly Lake Dr SW, Lakewood, WA 98499",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine%C2%A0",
+      "county": "Pierce County",
+      "city": "Lakewood",
+      "name": "Sea Mar - Lakewood",
+      "address": "7424 Bridgeport Way W #103, Lakewood, WA 98499",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.chifranciscan.org/patients-and-visitors/covid-19/vaccine-information.html",
+      "county": "Pierce County",
+      "city": "Lakewood",
+      "name": "ST CLARE HOSPITAL",
+      "address": "11315 Bridgeport Way SW, Lakewood, WA 98499",
+      "phoneNumber": "(253) 792-2385",
+      "email": "",
+      "additionalDetails": "Vaccine is provided by appointment only. Please visit: COVID 19 Vaccine to schedule an appointment\nIf you have questions please call: 253-792-2385 8-4:30 seven days a week.\n "
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SavonPharmacyPuyallup",
+      "county": "Pierce County",
+      "city": "Puyallup",
+      "name": "ALBERTSON\u0027S PHARMACY #3106",
+      "address": "11012 canyon Rd E, Puyallup, WA 98373",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxdyzz0/?\u0026e_id\u003d5055",
+      "county": "Pierce County",
+      "city": "Puyallup",
+      "name": "Costco Pharmacy",
+      "address": "1201 39TH AVE. SW, Puyallup, WA 98373",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "",
+      "county": "Pierce County",
+      "city": "Puyallup",
+      "name": "EAST PIERCE FAMILY MEDICINE",
+      "address": "1322 3rd St SE, Suite 240",
+      "phoneNumber": "Puyallup, WA 98372",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information. \n "
+    },
+    {
+      "url": "",
+      "county": "Pierce County",
+      "city": "Puyallup",
+      "name": "MultiCare - Good Samaritan - East Main campus",
+      "address": "1317 E. Main Ave, Puyallup, WA 98372",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information. "
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Pierce County",
+      "city": "Puyallup",
+      "name": "SEA MAR - PUYALLUP",
+      "address": "10217 125th Street, Court E, Puyallup, WA 98374",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "Acts Pharmacy and Healthcare Services",
+      "address": "1901 S Union Ave Building B Suite 2011, Tacoma, WA 98405",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Send email request to actsvaccines@gmail.com with name and phone number."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx8y0ns/?\u0026e_id\u003d4969",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "Costco Pharmacy",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.lincolnrx.com/",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "LINCOLN PHARMACY",
+      "address": "821 S 38th St, Tacoma, WA 98418",
+      "phoneNumber": "(253) 473-1155",
+      "email": "slawson@lincolnrx.com",
+      "additionalDetails": "Please visit our website to schedule a visit.\nFor additional questions please contact slawson@lincolnrx.com \n "
+    },
+    {
+      "url": "https://www.covid19tacoma.com/pre-register",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "OMLife Health Clinic",
+      "address": "2702 1/2 N Proctor, Suite C",
+      "phoneNumber": "Tacoma, WA 98407",
+      "email": "(253) 444-5511",
+      "additionalDetails": "Pre-register through website."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "Sea Mar - Tacoma Cushman",
+      "address": "1112 S. Cushman Ave., Tacoma, WA 98405",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine.html",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "Sea Mar Community Health Center",
+      "address": "1112 S. Cushman Ave, Tacoma, WA 98405",
+      "phoneNumber": "253-593-2144",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please visit this link to schedule.  If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine.\n "
+    },
+    {
+      "url": "https://www.chifranciscan.org/patients-and-visitors/covid-19/vaccine-information.html",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "ST JOSEPH MEDICAL CENTER",
+      "address": "1717 South J St, Tacoma, WA 98405",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Vaccine is provided by appointment only. Please visit: COVID 19 Vaccine to schedule an appointment\nIf you have questions please call: 253-792-2385 8-4:30 seven days a week."
+    },
+    {
+      "url": "",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "TACOMA CENTRAL FAMILY MEDICAL",
+      "address": "3124 S 19th St, Suite 140, Tacoma, WA 98405",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "(located on Allenmore Hosp Medical Office Bldg Campus). Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information."
+    },
+    {
+      "url": "",
+      "county": "Pierce County",
+      "city": "Tacoma",
+      "name": "TACOMA GENERAL HOSPITAL",
+      "address": "315 Martin Luther King Jr. Way, Tacoma, WA 98405",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information.\n(clinic is located across from Tacoma General Hospital in the Jackson Hall Bldg)"
+    },
+    {
+      "url": "",
+      "county": "Pierce County",
+      "city": "University Place",
+      "name": "UNIVERSITY PLACE MEDICAL CLINIC",
+      "address": "4401 Bridgeport Way W., University Place, WA 98466",
+      "phoneNumber": "253-328-4088",
+      "email": "contact@universityplaceclinic.com",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://www.sanjuanco.com/1737/COVID-Vaccine-Info",
+      "county": "San Juan County",
+      "city": "Friday Harbor",
+      "name": "San Juan County Health \u0026 Community Services",
+      "address": "145 Rhone St, Friday Harbor, WA 98250",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "San Juan County Heath \u0026 Community Services is offering COVID-19 immunization clinics on San Juan, Orcas and Lopez Islands in accordance with current Washington State COVID vaccine phase guidelines. Please see for information on how to schedule an appointment."
+    },
+    {
+      "url": "https://islandhospital.org/coronavirus/",
+      "county": "Skagit County",
+      "city": "Anacortes",
+      "name": "ISLAND Medical Center Pharmacy",
+      "address": "1211 24th Street, Anacortes, WA 98221",
+      "phoneNumber": "(360) 299-1367",
+      "email": "covidvaccine.support@islandhospital.org",
+      "additionalDetails": "Appointments are required. Please go to https://www.islandhospital.org/coronavirus/ to schedule an appointment. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxdzb42/?\u0026e_id\u003d5057",
+      "county": "Skagit County",
+      "city": "Burlington",
+      "name": "Costco Pharmacy",
+      "address": "1725 S. BURLINGTON BLVD, Burlington, WA 98233",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Skagit County",
+      "city": "Concrete",
+      "name": "Sea Mar - Concrete",
+      "address": "7438 S D Ave, Concrete, WA 98237",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.skagitcounty.net/covidvaccine",
+      "county": "Skagit County",
+      "city": "Mount Vernon",
+      "name": "Skagit County Public Health at the Skagit County Fairgrounds",
+      "address": "North Entrance at 1410 Virginia Street, Mount Vernon, WA 98273",
+      "phoneNumber": "360-416-1500",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Visit www.skagitcounty.net/covidvaccine. People without internet access can call 360-416-1500 for assistance. \nClinics are dependent on vaccine allocations."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/HaggenPharmacyMtVernon",
+      "county": "Skagit County",
+      "city": "Mount Vernon",
+      "name": "HAGGEN PHARMACY #3450",
+      "address": "2601 E Division St, Mount Vernon, WA 98274",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Skagit County",
+      "city": "Mount Vernon",
+      "name": "SEA MAR - MT VERNON",
+      "address": "1400 N LaVenture Rd, Mount Vernon, WA 98273",
+      "phoneNumber": "(360) 510-9862",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Skagit County",
+      "city": "Mount Vernon",
+      "name": "Sea Mar - Skagit Valley",
+      "address": "125 N 18th St., Mount Vernon, WA 98273",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://skagitcounty.net/covidvaccine",
+      "county": "Skagit County",
+      "city": "Mount Vernon",
+      "name": "Skagit County Public Health",
+      "address": "700 S. 2nd Street, Mount Vernon, WA 98273",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Skagit County Public Health COVID Vaccine Hotline\nCall center open Monday through Saturday from 07:30 am to 6:00 pm\n360-416-1500 for those with questions or needing assistance in phase evaluation or finding vaccine locations."
+    },
+    {
+      "url": "https://www.doh.wa.gov/www.skagitregionalhealth.org/covid-vaccine",
+      "county": "Skagit County",
+      "city": "Mount Vernon",
+      "name": "Skagit Regional Health - Vaccine Clinic",
+      "address": "425 S 13th Street, Mount Vernon, WA 98274",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. For vaccine scheduling information, please visit www.skagitregionalhealth.org/covid-vaccine."
+    },
+    {
+      "url": "https://northshore-medical.com/",
+      "county": "Skamania County",
+      "city": "Stevenson",
+      "name": "NorthShore Medical Group",
+      "address": "875 SW Rock Creek Drive, Stevenson, WA 98648",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "call"
+    },
+    {
+      "url": "https://snohomish-county-coronavirus-response-snoco-gis.hub.arcgis.com/pages/covid-19-vaccine",
+      "county": "Snohomish County",
+      "city": "Arlington",
+      "name": "Arlington Municipal Airport",
+      "address": "4299 188th St. NE, Arlington, WA 98223",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments required. Visit our webpage to sign up. Appointments have been booking rapidly, and more will be added as we are able. Link for webpage is https://snohomish-county-coronavirus-response-snoco-gis.hub.arcgis.com/pages/covid-19-vaccine"
+    },
+    {
+      "url": "https://www.skagitregionalhealth.org/covid-vaccine",
+      "county": "Snohomish County",
+      "city": "Arlington",
+      "name": "Skagit Regional Clinics - Smokey Point",
+      "address": "3823 172nd Street NE, Arlington, WA 98223",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. For vaccine scheduling information, please visit www.skagitregionalhealth.org/covid-vaccine."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "Snohomish County",
+      "city": "Edmonds",
+      "name": "QFC",
+      "address": "22828 100TH AVE W, Edmonds, WA 98020",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxblt4y/?e_id\u003d5019",
+      "county": "Snohomish County",
+      "city": "Everett",
+      "name": "Costco Pharmacy",
+      "address": "10200 19TH AVE SE, Everett, WA 98208",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://providencecovidvaccinewamt.squarespace.com/northwestwa",
+      "county": "Snohomish County",
+      "city": "Everett",
+      "name": "Providence - Snohomish County",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our link for current planning, scheduling links, and current phase information."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "Snohomish County",
+      "city": "Everett",
+      "name": "QFC",
+      "address": "2615 BROADWAY, Everett, WA 98201",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.qfc.com/i/coronavirus-update/vaccine",
+      "county": "Snohomish County",
+      "city": "Everett",
+      "name": "QFC",
+      "address": "4919 EVERGREEN WAY, Everett, WA 98203",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://schedule.seattlevna.com/home/fbb4a1ad-7e4b-eb11-a813-000d3a3033d3",
+      "county": "Snohomish County",
+      "city": "Everett",
+      "name": "Seattle Visiting Nurses Association",
+      "address": "Paine Field, 3310 100th St. SW",
+      "phoneNumber": "Everett, WA 98204",
+      "email": "",
+      "additionalDetails": "Visit our website to schedule an appointment."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx809zv/?\u0026e_id\u003d4981",
+      "county": "Snohomish County",
+      "city": "Lynnwood",
+      "name": "Costco Pharmacy",
+      "address": "18109 33RD AVE W, Lynnwood, WA 98036",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://schedule.seattlevna.com/home/fbb4a1ad-7e4b-eb11-a813-000d3a3033d3",
+      "county": "Snohomish County",
+      "city": "Lynnwood",
+      "name": "Seattle Visiting Nurses Association",
+      "address": "Edmonds College, 20000 68th Ave. W",
+      "phoneNumber": "Lynnwood, WA 98036",
+      "email": "",
+      "additionalDetails": "Visit our website to schedule an appointment.\n "
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxd5jps/?\u0026e_id\u003d5053",
+      "county": "Snohomish County",
+      "city": "Marysville",
+      "name": "Costco Pharmacy",
+      "address": "16616 TWIN LAKES AVE., Marysville, WA 98271",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine%C2%A0",
+      "county": "Snohomish County",
+      "city": "Marysville",
+      "name": "Sea Mar - Marysville",
+      "address": "9710 State Ave, Marysville, WA 98270",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "Snohomish County",
+      "city": "Mill Creek",
+      "name": "QFC",
+      "address": "926 164TH SE, Mill Creek, WA 98012",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.signupgenius.com/tabs/13577df01a0cfedc5ac5-vaccine2",
+      "county": "Snohomish County",
+      "city": "Monroe",
+      "name": "Evergreen State Fairgrounds",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Visit our website to schedule an appointment."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine%C2%A0",
+      "county": "Snohomish County",
+      "city": "Monroe",
+      "name": "Sea Mar Community Health Center - Monroe",
+      "address": "17707 W Main St, Monroe, WA 98272",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "Snohomish County",
+      "city": "Stanwood",
+      "name": "QFC",
+      "address": "27008 92ND AVE NW, Stanwood, WA 98292",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Spokane County",
+      "city": "Liberty Lake",
+      "name": "MultiCare - LIBERTY LAKE",
+      "address": "1326 N Standford Ln, Liberty Lake, WA 99019",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information."
+    },
+    {
+      "url": "https://app.acuityscheduling.com/schedule.php?owner\u003d21573064",
+      "county": "Spokane County",
+      "city": "Liberty Lake",
+      "name": "Yokes Pharmacy #16",
+      "address": "1233 N Liberty Lake Rd, Liberty Lake, WA 99019",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please visit this link to schedule.  If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx6qy2y/?\u0026e_id\u003d4965",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "Costco Pharmacy",
+      "address": "5601 EAST SPRAGUE AVE, Spokane, WA 99212",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctxyhtkq/?\u0026e_id\u003d5005",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "Costco Pharmacy",
+      "address": "12020 N Newport Hwy, Spokane, WA 99218",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "MT. SPOKANE PEDIATRICS",
+      "address": "9425 N Nevada Ste 300, Spokane, WA 99218",
+      "phoneNumber": "(509) 270-0065",
+      "email": "vaccines@mtspokanepediatrics.com",
+      "additionalDetails": "Call or email"
+    },
+    {
+      "url": "",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "Multicare - Deaconess Health \u0026 Education Center (DHEC)",
+      "address": "910 W 5th Ave, Suite 266, Spokane, WA 99204",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required and are in high demand. Visit our COVID-19 vaccine page for the latest updates and scheduling information."
+    },
+    {
+      "url": "",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "Prevention Northwest/ Northwest Neurological",
+      "address": "26 E 5th Ave, Spokane, WA 99202",
+      "phoneNumber": "covidinfo@preventionnw.com",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://providencecovidvaccinewamt.squarespace.com/spokane",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "Providence - Spokane County",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our link for current planning, scheduling links, and current phase information."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacySpokane",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "SAFEWAY #27-1473",
+      "address": "14020 E Sprague Ave, Spokane, WA 99216",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://covid.srhd.org/topics/covid-19-vaccination/spokanearena",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "Spokane Veterans Memorial Arena",
+      "address": "720 W Mallon Ave, Spokane, WA 99201",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "This is a DOH Mass Vaccination Site. Vaccine by appointment only. To get an appointment go online . \nOnly people living or working in Washington are eligible for vaccination at this site.  Please bring a picture ID; a letter or statement that shows your Washington address; or a voucher from your employer, health care provider, religious institution, school or other official agency that shows you live or work in Washington."
+    },
+    {
+      "url": "",
+      "county": "Spokane County",
+      "city": "Spokane",
+      "name": "UNIFY COMMUNITY HEALTH ON MISSION",
+      "address": "120 W Mission, Spokane, WA 99201",
+      "phoneNumber": "unifycommunityhealth@yvfwc.org",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://providencecovidvaccinewamt.squarespace.com/stevenscounty",
+      "county": "Stevens County",
+      "city": "Colville",
+      "name": "Providence - Stevens County",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Visit our link for current planning, scheduling links, and current phase information."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyColville",
+      "county": "Stevens County",
+      "city": "Colville",
+      "name": "SAFEWAY #27-0385",
+      "address": "391 N Main St, Colville, WA 99114",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx7pdqm/?\u0026e_id\u003d4977",
+      "county": "Thurston County",
+      "city": "Lacey",
+      "name": "Costco Pharmacy",
+      "address": "1470 MARVIN ROADNE, Lacey, WA 98516",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.qfc.com/rx/guest/get-vaccinated",
+      "county": "Thurston County",
+      "city": "Lacey",
+      "name": "QFC",
+      "address": "4775 WHITMAN LANE SE, Lacey, WA 98513",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://providencecovidvaccinewamt.squarespace.com/southwestwa",
+      "county": "Thurston County",
+      "city": "Lacey/Olympia",
+      "name": "Providence - Thurston County",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our link for current planning, scheduling links, and current phase information."
+    },
+    {
+      "url": "",
+      "county": "Thurston County",
+      "city": "Olympia",
+      "name": "Capital Medical Center",
+      "address": "3900 Capital Mall Drive SW, Olympia, WA 98502",
+      "phoneNumber": "360-956-2563",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Call 360-956-2563 to be added to our scheduling list. Please do not try to schedule a vaccine appointment unless you meet the eligibility criteria. "
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Thurston County",
+      "city": "Olympia",
+      "name": "SEA MAR - OLYMPIA",
+      "address": "3030 Limited Lane NW, Olympia, WA 98502",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "",
+      "county": "Thurston County",
+      "city": "Tenino",
+      "name": "VALLEY VIEW Health Care - TENINO CLINIC",
+      "address": "273 E Sussex Ave, Tenino, WA 98589",
+      "phoneNumber": "Covidphase@vvhc.org",
+      "email": "",
+      "additionalDetails": "email"
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx6led8/?\u0026e_id\u003d5035",
+      "county": "Thurston County",
+      "city": "Tumwater",
+      "name": "Costco Pharmacy",
+      "address": "5500 LITTLEROCK ROAD SW, Tumwater, WA 98512",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyTumwater",
+      "county": "Thurston County",
+      "city": "Tumwater",
+      "name": "SAFEWAY #27-1503",
+      "address": "520 Cleveland Ave SE, Tumwater, WA 98501",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Thurston County",
+      "city": "Yelm",
+      "name": "Sea Mar Community Health Center - Yelm",
+      "address": "202 Cullens St, Yelm, WA 98597",
+      "phoneNumber": "360-440-4800",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "",
+      "county": "Thurston County",
+      "city": "Yelm",
+      "name": "YELM FAMILY MEDICINE",
+      "address": "201 Tahoma Blvd se, suite 102",
+      "phoneNumber": "Yelm, WA 98597",
+      "email": "(360) 458-7761 ext114",
+      "additionalDetails": "We are only vaccinating established patients at this time."
+    },
+    {
+      "url": "",
+      "county": "Wahkiakum County",
+      "city": "Cathlamet",
+      "name": "WAHKIAKUM COUNTY HEALTH DEPT",
+      "address": "64 Main Street, Cathlamet, WA 98612",
+      "phoneNumber": "(360) 795-6207",
+      "email": "",
+      "additionalDetails": "call"
+    },
+    {
+      "url": "https://providencecovidvaccinewamt.squarespace.com/wallawalla",
+      "county": "Walla Walla County",
+      "city": "Walla Walla",
+      "name": "Providence - Walla Walla",
+      "address": "",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Please visit our link for current planning, scheduling links, and current phase information."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/Safeway-WallaWalla-PlazaBlvd",
+      "county": "Walla Walla County",
+      "city": "Walla Walla",
+      "name": "Safeway Pharmacy 1160",
+      "address": "1600 Plaza Way, Walla Walla, WA 99362",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Walla Walla County",
+      "city": "Walla Walla",
+      "name": "Walla Walla County Dept of Community Health",
+      "address": "314 W Main St, Walla Walla, WA 99362",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "We are not providing vaccinations at this site.\nA mass vaccination clinic has been set- up and will be listed soon.  For updates go to Community Health COVID website.\n "
+    },
+    {
+      "url": "https://www.signupgenius.com/go/10c0d4da4ac2aa4fec07-phase",
+      "county": "Walla Walla County",
+      "city": "Walla Walla",
+      "name": "Walla Walla County Fairgrounds",
+      "address": "363 Orchard St, Walla Walla, WA 99362",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Walla Walla County Community Health and Healthcare Partners are offering COVID vaccines by appointment only, no walk-ins accepted. \n  CLICK HERE TO SCHEDULE\nClinic days will depend on vaccine allocation received from state and federal partners."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx948t8/?\u0026e_id\u003d4993",
+      "county": "Whatcom County",
+      "city": "Bellingham",
+      "name": "Costco Pharmacy",
+      "address": "4125 Arctic Ave., Bellingham, WA 98226",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/HaggenPharmacyBellingham",
+      "county": "Whatcom County",
+      "city": "Bellingham",
+      "name": "Haggen Pharmacy 3460",
+      "address": "2900 Woburn St, Bellingham, WA 98226",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website. If there are no dates listed, all appointments have been filled. Please check back at a later date. Please do not call the pharmacy to inquire about additional dates. The website will be updated as we receive additional vaccine doses. "
+    },
+    {
+      "url": "",
+      "county": "Whatcom County",
+      "city": "Bellingham",
+      "name": "PEACEHEALTH ST JOSEPH MEDICAL CENTER",
+      "address": "2901 Squalicum Parkway, Bellingham, WA 98225",
+      "phoneNumber": "whatcomvaccine@peacehealth.org",
+      "email": "",
+      "additionalDetails": "Please email using the information provided above."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Whatcom County",
+      "city": "Bellingham",
+      "name": "Sea Mar - Bellingham",
+      "address": "4455 Cordata Pkwy, Bellingham, WA 98226",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website https://www.seamar.org/covid-vaccine to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://www.seamar.org/covid-vaccine",
+      "county": "Whatcom County",
+      "city": "Everson",
+      "name": "SEA MAR - EVERSON",
+      "address": "6884 Hannegan Rd, Everson, WA 98247",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Sea Mar is providing vaccines on a first come, first served walk in basis. Before you go to the clinic, please visit Sea Mar’s website to see eligibility requirements and which clinics have vaccines available."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyLynden",
+      "county": "Whatcom County",
+      "city": "Lynden",
+      "name": "Safeway Pharmacy 1930",
+      "address": "8071 Guide Meridian Rd #101, Lynden, WA 98264",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. Please schedule on our website. If there are no dates listed, all appointments have been filled. Please check back at a later date. Please do not call the pharmacy to inquire about additional dates. The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "",
+      "county": "Whitman County",
+      "city": "Pullman",
+      "name": "Palouse Medical",
+      "address": "825 SE Bishop Blvd Ste. 200, Pullman, WA 99163",
+      "phoneNumber": "admin@palousemedical.com",
+      "email": "",
+      "additionalDetails": "COVID vaccine administration at this location is only for current patients from this healthcare facility."
+    },
+    {
+      "url": "",
+      "county": "Whitman County",
+      "city": "Colfax",
+      "name": "Whitman Hospital and Medical Clinics",
+      "address": "1200 W. Fairview, Colfax, WA 99111",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "COVID vaccine administration at this location is only for current patients from this healthcare facility.\nTo schedule appointment call 509-397-5719."
+    },
+    {
+      "url": "",
+      "county": "Whitman County",
+      "city": "Pullman",
+      "name": "PULLMAN REGIONAL HOSPITAL",
+      "address": "835 SE Bishop Blvd, Pullman, WA 99163",
+      "phoneNumber": "covidvaccine@pullmanregional.org",
+      "email": "",
+      "additionalDetails": ""
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyPullman",
+      "county": "Whitman County",
+      "city": "Pullman",
+      "name": "SAFEWAY #27-2639",
+      "address": "430 SE Bishop Blvd, Pullman, WA 99163",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Whitman County",
+      "city": "Pullman",
+      "name": "Schweitzer Engineering Laboratories Health Clinic",
+      "address": "2560 SE Hopkins Ct, Pullman, WA 99163",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "   "
+    },
+    {
+      "url": "",
+      "county": "Whitman County",
+      "city": "Pullman",
+      "name": "Sid\u0027s LTC",
+      "address": "825 Southeast Bishop Blvd. # 301, Pullman, WA 99163",
+      "phoneNumber": "covid@sidspharmacy.com",
+      "email": "",
+      "additionalDetails": "COVID vaccine administration at this location is only for current patients from this healthcare facility.\nCall 509-339-7078 or email covid@sidspharmacy.com"
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyGrandview",
+      "county": "Yakima County",
+      "city": "Grandview",
+      "name": "SAFEWAY #27-1593",
+      "address": "610 E Wine Country Rd, Grandview, WA 98930",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Yakima County",
+      "city": "Grandview",
+      "name": "Yakima Valley Farm Workers Clinic - GRANDVIEW",
+      "address": "1000 Wallace Way, Grandview, WA 98930",
+      "phoneNumber": "Quality@yvfwc.org",
+      "email": "",
+      "additionalDetails": "Please send an email including first and last name, best contact number and city. Scheduler will call you back."
+    },
+    {
+      "url": "",
+      "county": "Yakima County",
+      "city": "Sunnyside",
+      "name": "ASTRIA SUNNYSIDE HOSPITAL",
+      "address": "1016 Tacoma Ave, Sunnyside, WA 98944",
+      "phoneNumber": "(509) 837-1317",
+      "email": "amber.hunsaker@astria.health",
+      "additionalDetails": "call or email"
+    },
+    {
+      "url": "",
+      "county": "Yakima County",
+      "city": "Toppenish",
+      "name": "ASTRIA TOPPENISH HOSPITAL",
+      "address": "502 N 4th Ave, Toppenish, WA 98948",
+      "phoneNumber": "(509) 865-1520",
+      "email": "laurie.mires@astria.health",
+      "additionalDetails": "Call or email to schedule an appointment."
+    },
+    {
+      "url": "",
+      "county": "Yakima County",
+      "city": "Toppenish",
+      "name": "Yakima Valley Farm Workers - TOPPENISH",
+      "address": "510 W. First Avenue, Toppenish, WA 98948",
+      "phoneNumber": "509-865-5600",
+      "email": "Quality@yvfwc.org",
+      "additionalDetails": "For groups scheduling over 5 people-  please email a list including first and last name, contact number and city. Our scheduler will call you back.\nFor individuals and groups scheduling up to 5 people- call the main number at: (509) 865-5600."
+    },
+    {
+      "url": "https://book-costcopharmacy.appointment-plus.com/ctx994xy/?\u0026e_id\u003d4987",
+      "county": "Yakima County",
+      "city": "Union Gap",
+      "name": "Costco Pharmacy",
+      "address": "2310 LONGFIBRE RD, Union Gap, WA 98903",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required.  Please schedule on our link.  If there are no dates listed, all appointments have been filled.  Please check back at a later date.  Please do not call the pharmacy to inquire about additional dates.  The website will be updated as we receive additional vaccine doses."
+    },
+    {
+      "url": "https://www.chcw.org/",
+      "county": "Yakima County",
+      "city": "Yakima",
+      "name": "CENTRAL WA FAMILY MEDICINE",
+      "address": "1806 W Lincoln Ave, Yakima, WA 98902",
+      "phoneNumber": "covidvaccine@chcw.org",
+      "email": "",
+      "additionalDetails": "Go to www.chcw.org to be placed on a wait list."
+    },
+    {
+      "url": "https://kordinator.mhealthcoach.net/vcl/SafewayPharmacyYakima",
+      "county": "Yakima County",
+      "city": "Yakima",
+      "name": "SAFEWAY #27-1660",
+      "address": "905 E Meade Ave, Yakima, WA 98903",
+      "phoneNumber": "",
+      "email": "",
+      "additionalDetails": "Appointments are required. If there are no spots left on the scheduling link, all appointment times have been filled. We will add more appointments when we receive more vaccine."
+    },
+    {
+      "url": "",
+      "county": "Yakima County",
+      "city": "Yakima",
+      "name": "YAKIMA PEDIATRIC ASSOCIATES",
+      "address": "402 S 12th Ave, Yakima, WA 98902",
+      "phoneNumber": "covidvaccine@chcw.org",
+      "email": "",
+      "additionalDetails": "Go to www.chcw.org to be placed on a wait list."
+    },
+    {
+      "url": "https://www.yakimamemorial.org/medical-services-vaccinations.asp",
+      "county": "Yakima County",
+      "city": "Yakima",
+      "name": "YAKIMA VALLEY MEMORIAL HOSPITAL",
+      "address": "2811 Tieton Drive, Yakima, WA 98902",
+      "phoneNumber": "509-972-1151",
+      "email": "COVIDvaccineScheduling@yvmh.org",
+      "additionalDetails": "Appointments are required. Please visit this link to schedule.  If there are no spots left on the scheduling link, all appointment times have been filled. "
+    }
+  ]
+}
