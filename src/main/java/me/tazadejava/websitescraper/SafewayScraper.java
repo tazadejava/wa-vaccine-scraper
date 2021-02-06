@@ -62,8 +62,6 @@ public class SafewayScraper extends WebsiteScraper {
             }
         }
 
-        waitUntilPageLoadsCustom("p", "ng-bind", "noSlotsAvailableForMonthErrorMessage | translate");
-
         Thread.sleep(1000);
 
         waitUntilPageLoadsCustom("p", "ng-bind", "noSlotsAvailableForMonthErrorMessage | translate");

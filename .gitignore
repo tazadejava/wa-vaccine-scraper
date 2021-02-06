@@ -1,2 +1,5 @@
 internalData/
 vaccine-tracker-wa/
+
+portToXVM.sh
+target/portToXVM.sh

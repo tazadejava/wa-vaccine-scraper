@@ -32,7 +32,7 @@ public class VaccineManager {
     private List<VaccineStatus> lastAvailableStatuses = new ArrayList<>();
 
     private ExecutorService workerPool;
-    private List<VaccineStatusScraper> scraperPool;
+//    private List<VaccineStatusScraper> scraperPool;
     private HashMap<VaccineStatus.VaccineAvailability, Integer> availabilityCount = new HashMap<>();
 
     public VaccineManager() {
@@ -334,18 +334,9 @@ public class VaccineManager {
     private void scrapeStatusesAndMarkUnavailableStatuses(List<VaccineLocation> locations) {
         List<VaccineStatus> oldStatuses = new ArrayList<>(lastAvailableStatuses);
 
-        boolean pause = !lastAvailableStatuses.isEmpty();
-        if(pause) {
-            System.out.println("AH!");
-        }
-
         lastAvailableStatuses.clear();
 
         scrapeStatuses(locations);
-
-        if(pause) {
-            System.out.println("AH!");
-        }
 
         //mark the unavailable statuses
         for(VaccineStatus status : oldStatuses) {
@@ -358,16 +349,16 @@ public class VaccineManager {
 
     private void loadWorkers() {
         availabilityCount.clear();
-        scraperPool = new ArrayList<>();
+//        scraperPool = new ArrayList<>();
 
         int processors = USE_MULTIPLE_THREADS ? Runtime.getRuntime().availableProcessors() : 1;
         workerPool = Executors.newFixedThreadPool(processors);
 
-        System.out.println("CREATING " + processors + " WORKER WEBDRIVERS");
-        for(int i = 0; i < processors; i++) {
-            scraperPool.add(new VaccineStatusScraper(proxiesList.get(proxyIndex % proxiesList.size())));
-            proxyIndex++;
-        }
+//        System.out.println("CREATING " + processors + " WORKER WEBDRIVERS");
+//        for(int i = 0; i < processors; i++) {
+//            scraperPool.add(new VaccineStatusScraper(proxiesList.get(proxyIndex % proxiesList.size())));
+//            proxyIndex++;
+//        }
     }
 
     private void scrapeStatuses(List<VaccineLocation> locations) {
@@ -426,7 +417,7 @@ public class VaccineManager {
 
                     System.out.println("[WORKER " + processorNumber + "] STARTED WORKING!");
                     long startTimeThread = System.currentTimeMillis();
-                    VaccineStatusScraper scraper = scraperPool.get(processorNumber);
+                    VaccineStatusScraper scraper = new VaccineStatusScraper(proxiesList.get(proxyIndex % proxiesList.size()));
 
                     for (int j = startIndex; j < endIndex; j++) {
                         VaccineLocation loc = locations.get(j);
@@ -471,7 +462,7 @@ public class VaccineManager {
                         }
                     }
 
-//                    scraper.close();
+                    scraper.close();
 
                     finishedProcessors[0]++;
                     System.out.println("[WORKER " + processorNumber + "] DONE (" + finishedProcessors[0] + "/" + processors + ")! TOOK " + ((System.currentTimeMillis() - startTimeThread) / 1000) + " SECONDS TO COMPLETION");

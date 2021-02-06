@@ -27,8 +27,8 @@ public class VaccineLocationScraper extends WebDriverClass {
         super(proxy);
 
         permittedCounties.add("King County");
-        permittedCounties.add("Snohomish County");
-        permittedCounties.add("Pierce County");
+//        permittedCounties.add("Snohomish County");
+//        permittedCounties.add("Pierce County");
     }
 
     private File getVaccineLocationsFile() {
