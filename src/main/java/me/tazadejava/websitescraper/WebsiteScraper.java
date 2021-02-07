@@ -86,4 +86,8 @@ public abstract class WebsiteScraper {
 
         return null;
     }
+
+    public String getVisiblePageText() {
+        return webDriver.findElement(By.xpath("//*[contains(.,.)]")).getText();
+    }
 }

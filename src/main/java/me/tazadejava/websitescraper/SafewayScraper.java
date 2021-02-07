@@ -41,10 +41,14 @@ public class SafewayScraper extends WebsiteScraper {
 
         waitUntilPageLoadsClass("appointmentType-type");
 
+        if(getVisiblePageText().contains("There is no availability at this time.")) {
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
+        }
+
         Select dropdown = new Select(webDriver.findElement(By.id("appointmentType-type")));
 
         if(dropdown.getOptions().size() == 1) {
-            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "DROPDOWN INVALID");
         }
 
         dropdown.selectByIndex(1);
@@ -67,13 +71,13 @@ public class SafewayScraper extends WebsiteScraper {
         waitUntilPageLoadsCustom("p", "ng-bind", "noSlotsAvailableForMonthErrorMessage | translate");
 
         try {
-            new WebDriverWait(webDriver, 8).until(webDriver -> !webDriver.getPageSource().contains("Loading calendar") || webDriver.getPageSource().contains("There is no availability at this time."));
+            new WebDriverWait(webDriver, 8).until(webDriver -> !getVisiblePageText().contains("Loading calendar"));
         } catch (TimeoutException ex) {
             ex.printStackTrace();
-            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "CALENDAR DIDN'T LOAD");
         }
 
-        if (webDriver.getPageSource().contains("There is no availability at this time.")) {
+        if (getVisiblePageText().contains("There is no availability at this time.")) {
             return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
         }
 

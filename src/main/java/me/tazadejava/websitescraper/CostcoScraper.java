@@ -30,9 +30,9 @@ public class CostcoScraper extends WebsiteScraper {
 
     @Override
     public VaccineStatus checkForVaccineStatus(VaccineLocation loc) throws Exception {
-        //may be able to obtain the appt information more quickly through the API
+        //may be able to obtain the appt information more quickly through the API; in future if using api, does not require selenium
         LocalDate startOfMonth = LocalDate.now().withDayOfMonth(1);
-        LocalDate nextMonth = startOfMonth.plusMonths(1).plusDays(14);
+        LocalDate nextMonth = startOfMonth.plusMonths(1);
         DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE;
         String startOfMonthString = startOfMonth.format(formatter);
         String nextMonthString = nextMonth.format(formatter);
@@ -45,42 +45,46 @@ public class CostcoScraper extends WebsiteScraper {
 
         JsonObject data = gson.fromJson(text, JsonObject.class);
 
-        if(data.getAsJsonArray("data").size() > 0 && data.getAsJsonArray("errors").size() == 0) {
-            System.out.println("COSTCO IS AVAILABLE BY API " + webDriver.getCurrentUrl());
-            return new VaccineStatus(VaccineStatus.VaccineAvailability.AVAILABLE, loc, this, loc.getUrl(), "");
-        } else {
-            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, loc.getUrl(), "UNAVAILABLE BY API");
+        if(data.getAsJsonArray("message").get(0).getAsString().equals("Client appointment grid dates retrieved successfully.") && data.getAsJsonArray("errors").size() == 0) {
+            if (data.getAsJsonArray("data").size() > 0) {
+                System.out.println("COSTCO IS AVAILABLE BY API " + webDriver.getCurrentUrl());
+                return new VaccineStatus(VaccineStatus.VaccineAvailability.AVAILABLE, loc, this, loc.getUrl(), "");
+            } else {
+                return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, loc.getUrl(), "");
+            }
         }
 
         //manual check through website if no availablity was found
 
-//        webDriver.get(loc.getUrl());
-//
-//        if(!waitUntilPageLoadsClass("chevron-row")) {
-//            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "FAILED TO LOAD PAGE");
-//        }
-//
-//        List<WebElement> getStartedButton = webDriver.findElements(By.className("chevron-row"));
-//
-//        getStartedButton.get(0).click();
-//        waitUntilPageLoadsClass("gridMsg");
-//
-//        List<WebElement> gridMessage = webDriver.findElements(By.className("gridMsg"));
-//        if(gridMessage.size() == 1) {
-//            List<WebElement> children = getChildNodes(gridMessage.get(0));
-//            if(children.size() > 0) {
-//                if(children.get(0).getText().startsWith("We’re sorry, but there are not available times.")) {
-//                    return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
-//                }
-//            }
-//        }
-//
-//        Thread.sleep(1000);
-//
-//        if(webDriver.getPageSource().contains("We're sorry, but no")) {
-//            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
-//        }
-//
-//        return new VaccineStatus(VaccineStatus.VaccineAvailability.AVAILABLE, loc, this, loc.getUrl(), "");
+        System.out.println("MANUAL CHECK COSTCO");
+
+        webDriver.get(loc.getUrl());
+
+        if(!waitUntilPageLoadsClass("chevron-row")) {
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "FAILED TO LOAD PAGE");
+        }
+
+        List<WebElement> getStartedButton = webDriver.findElements(By.className("chevron-row"));
+
+        getStartedButton.get(0).click();
+        waitUntilPageLoadsClass("gridMsg");
+
+        List<WebElement> gridMessage = webDriver.findElements(By.className("gridMsg"));
+        if(gridMessage.size() == 1) {
+            List<WebElement> children = getChildNodes(gridMessage.get(0));
+            if(children.size() > 0) {
+                if(children.get(0).getText().startsWith("We’re sorry, but there are not available times.")) {
+                    return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
+                }
+            }
+        }
+
+        Thread.sleep(1000);
+
+        if(webDriver.getPageSource().contains("We're sorry, but no")) {
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
+        }
+
+        return new VaccineStatus(VaccineStatus.VaccineAvailability.AVAILABLE, loc, this, loc.getUrl(), "");
     }
 }

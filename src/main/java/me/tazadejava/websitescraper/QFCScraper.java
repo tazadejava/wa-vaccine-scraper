@@ -28,7 +28,7 @@ public class QFCScraper extends WebsiteScraper {
         webDriver.get("https://www.qfc.com/rx/guest/get-vaccinated");
 
         if(!waitUntilPageLoadsCustom("input", "placeholder", "ZIP code, City, State OR Name")) {
-            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "FAILED TO LOAD PAGE");
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "FAILED TO LOAD INITIAL PAGE");
         }
 
         WebElement input = webDriver.findElement(By.cssSelector("input[placeholder='ZIP code, City, State OR Name']"));
@@ -45,7 +45,7 @@ public class QFCScraper extends WebsiteScraper {
         List<WebElement> selectionDetails = webDriver.findElements(By.className("SearchResults-storeResultsDetails"));
 
         if(selectionDetails.isEmpty()) {
-            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "NO SELECTION DETAILS");
         }
 
         List<WebElement> selection = getChildNodes(selectionDetails.get(0));
@@ -61,7 +61,7 @@ public class QFCScraper extends WebsiteScraper {
         List<WebElement> covidButton = webDriver.findElements(By.cssSelector("input[name='COVID-19 Vaccine']"));
 
         if(covidButton.isEmpty()) {
-            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "NO COVID BUTTON");
         }
 
         covidButton.get(0).click();
@@ -81,7 +81,7 @@ public class QFCScraper extends WebsiteScraper {
         if(webDriver.getPageSource().contains("Select a date to reserve your spot")) {
             return new VaccineStatus(VaccineStatus.VaccineAvailability.AVAILABLE, loc, this, "https://www.qfc.com/rx/guest/get-vaccinated", "");
         } else {
-            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this);
+            return new VaccineStatus(VaccineStatus.VaccineAvailability.UNAVAILABLE, loc, this, "", "NO SELECT A DATE TEXT");
         }
     }
 }

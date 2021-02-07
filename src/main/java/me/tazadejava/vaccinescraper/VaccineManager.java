@@ -18,7 +18,8 @@ public class VaccineManager {
 
     public static final String SUBFOLDER = "vaccine-tracker-wa";
     public static final boolean USE_MULTIPLE_THREADS = true;
-    public static final int VERSION_INT = 1;
+    public static final boolean DEBUG_MESSAGES = true;
+    public static final int VERSION_INT = 2;
 
     private List<String> proxiesList;
     private int proxyIndex;
@@ -325,10 +326,47 @@ public class VaccineManager {
         locations.removeIf(loc -> loc.getUrl().isEmpty());
         locationScraper.close();
 
+        //FILTER FOR NOW TEMPORARILY
+        /*
+
+        Only include King County, EXCEPT costco, in which case all are included
+
+         */
+        for(Iterator<VaccineLocation> iterator = locations.iterator(); iterator.hasNext();) {
+            VaccineLocation loc = iterator.next();
+
+            if(!loc.getCounty().equals("King County")) {
+                if(!loc.getUrl().contains("costco")) {
+                    iterator.remove();
+                }
+            }
+        }
+
+//        printLocationKeys(locations);
+
         //get a unique shuffle based on the number of processors
         sortLocationsByTimeCommitment(locations, processors);
 
         scrapeStatusesAndMarkUnavailableStatuses(locations);
+    }
+
+    private void printLocationKeys(List<VaccineLocation> locs) {
+        locs.sort(new Comparator<VaccineLocation>() {
+            @Override
+            public int compare(VaccineLocation o1, VaccineLocation o2) {
+                String val1 = o1.getName() + " " + o1.getAddress();
+                String val2 = o2.getName() + " " + o2.getAddress();
+                return val1.compareTo(val2);
+            }
+        });
+
+        for(VaccineLocation loc : locs) {
+            if(loc.getName().startsWith("Costco") || loc.getName().startsWith("QFC") || loc.getName().startsWith("Safeway")) {
+                System.out.println(loc.getName() + " " + loc.getAddress());
+                System.out.println(loc.getKey());
+                System.out.println();
+            }
+        }
     }
 
     private void scrapeStatusesAndMarkUnavailableStatuses(List<VaccineLocation> locations) {
@@ -343,6 +381,12 @@ public class VaccineManager {
             if(!lastAvailableStatuses.contains(status)) {
                 VaccineLocation loc = status.getLocation();
                 availableLocationsHistory.get(loc).get(availableLocationsHistory.get(loc).size() - 1).markUnavailable();
+
+
+                //only log king county for now
+                if(loc.getCounty().equals("King County")) {
+                    updateAirtable(loc.getKey(), 0);
+                }
             }
         }
     }
@@ -425,6 +469,14 @@ public class VaccineManager {
                         long startTime = System.currentTimeMillis();
                         VaccineStatus status = scraper.scrapeVaccineStatus(loc);
 
+                        if(DEBUG_MESSAGES) {
+                            if (status.getAvailability() == VaccineStatus.VaccineAvailability.UNAVAILABLE) {
+                                if (!status.getInfoMessage().isEmpty()) {
+                                    System.out.println("\t" + status.getLocation().getName() + " " + status.getLocation().getAddress() + " FAILED: " + status.getInfoMessage());
+                                }
+                            }
+                        }
+
                         availabilityCount.put(status.getAvailability(), availabilityCount.get(status.getAvailability()) + 1);
 
                         if(status.getWebsiteScraperSource() != null) {
@@ -470,62 +522,6 @@ public class VaccineManager {
                     return null;
                 }
             });
-
-//            workerPool.execute(new Runnable() {
-//                @Override
-//                public void run() {
-//                    long startTimeThread = System.currentTimeMillis();
-//                    VaccineStatusScraper scraper = scraperPool.get(processorNumber);
-//
-//                    for (int j = startIndex; j < endIndex; j++) {
-//                        VaccineLocation loc = locations.get(j);
-//
-//                        long startTime = System.currentTimeMillis();
-//                        VaccineStatus status = scraper.scrapeVaccineStatus(loc);
-//
-//                        availabilityCount.put(status.getAvailability(), availabilityCount.get(status.getAvailability()) + 1);
-//
-//                        if(status.getWebsiteScraperSource() != null) {
-//                            String key = status.getWebsiteScraperSource().getRequiredURLPrefix();
-//
-//                            totalSecondsPerUrl.putIfAbsent(key, 0);
-//                            totalCallsPerUrl.putIfAbsent(key, 0);
-//
-//                            totalSecondsPerUrl.put(key, totalSecondsPerUrl.get(key) + (int) ((System.currentTimeMillis() - startTime) / 1000));
-//                            totalCallsPerUrl.put(key, totalCallsPerUrl.get(key) + 1);
-//                        }
-//
-//                        if(status.getAvailability() == VaccineStatus.VaccineAvailability.AVAILABLE) {
-//                            System.out.println("[WORKER " + processorNumber + "] " + "SITE: " + loc.getUrl());
-//                            System.out.println("[WORKER " + processorNumber + "] \t" + status.toString().replaceAll("\n", "\n\t"));
-//
-//                            statuses.add(status);
-//                            lastAvailableStatuses.add(status);
-//
-//                            availableLocationsHistory.putIfAbsent(loc, new ArrayList<>());
-//                            availableLocationsHistory.get(loc).add(new AvailableVaccineLocation());
-//
-//                            //intermediate update
-//                            saveAllStatuses(statuses);
-//                            updateFileServer();
-//                        }
-//
-//                        if(status.getAvailability() != VaccineStatus.VaccineAvailability.UNKNOWN) {
-//                            //wait before continuing
-//                            try {
-//                                Thread.sleep(300 + (int) (Math.random() * 200));
-//                            } catch (InterruptedException e) {
-//                                e.printStackTrace();
-//                            }
-//                        }
-//                    }
-//
-////                    scraper.close();
-//
-//                    finishedProcessors[0]++;
-//                    System.out.println("[WORKER " + processorNumber + "] DONE (" + finishedProcessors[0] + "/" + processors + ")! TOOK " + ((System.currentTimeMillis() - startTimeThread) / 1000) + " SECONDS TO COMPLETION");
-//                }
-//            });
         }
 
         try {
@@ -548,6 +544,24 @@ public class VaccineManager {
     private void updateFileServer() {
         System.out.println("UPDATING XVM SERVER");
         executeCommand("./portToXVM.sh");
+
+        //update airtable
+
+        for(VaccineStatus status : lastAvailableStatuses) {
+            VaccineLocation loc = status.getLocation();
+
+            //only log king county for now
+            if(!loc.getCounty().equals("King County")) {
+                continue;
+            }
+
+            String key = status.getLocation().getKey();
+            updateAirtable(key, status.getAvailability().airtableValue);
+        }
+    }
+
+    private void updateAirtable(String key, int status) {
+        executeCommand("curl -d '{\"key\": \"" + key + "\", \"status\":" + status + ",\"secret\":\"" + Keys.SECRET_KEY + "\"}' -H \"Content-Type: application/json\" https://api.covidwa.com/v1/updater -v");
     }
 
     private void executeCommand(String command) {

@@ -4,6 +4,10 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
+import java.math.BigInteger;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Objects;
 
 /**
@@ -12,8 +16,8 @@ import java.util.Objects;
  */
 public class VaccineLocation {
 
-    private String url, county, city, name, address, phoneNumber, email;
-    private String additionalDetails;
+    private final String url, county, city, name, address, phoneNumber, email;
+    private final String additionalDetails;
 
     public VaccineLocation(String url, String county, String city, String name, String address, String phoneNumber, String email, String additionalDetails) {
         this.url = url;
@@ -34,6 +38,10 @@ public class VaccineLocation {
         return gson.fromJson(data, VaccineLocation.class);
     }
 
+    public String getCounty() {
+        return county;
+    }
+
     public String getAddress() {
         return address;
     }
@@ -44,6 +52,25 @@ public class VaccineLocation {
 
     public String getID() {
         return name + " " + url + " " + address + " " + city + " " + county;
+    }
+
+    public String getKey() {
+        MessageDigest md = null;
+        try {
+            md = MessageDigest.getInstance("MD5");
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+
+        String val = name + " " + address;
+        val = val.toLowerCase();
+
+        md.update(val.getBytes(StandardCharsets.UTF_8));
+        return String.format("%032x", new BigInteger(1, md.digest()));
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override

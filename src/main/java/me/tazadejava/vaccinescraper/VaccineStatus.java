@@ -15,12 +15,14 @@ import java.util.Objects;
 public class VaccineStatus {
 
     public enum VaccineAvailability {
-        AVAILABLE(0), UNAVAILABLE(1), UNKNOWN(2);
+        AVAILABLE(0, 1), UNAVAILABLE(1, 0), UNKNOWN(2, 2);
 
         final int value;
+        final int airtableValue;
 
-        VaccineAvailability(int value) {
+        VaccineAvailability(int value, int airtableValue) {
             this.value = value;
+            this.airtableValue = airtableValue;
         }
     }
 
@@ -99,5 +101,9 @@ public class VaccineStatus {
     @Override
     public int hashCode() {
         return Objects.hash(availability, infoMessage, currentUrl, scrapeTime);
+    }
+
+    public String getInfoMessage() {
+        return infoMessage;
     }
 }

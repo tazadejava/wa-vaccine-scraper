@@ -145,7 +145,7 @@ public class VaccineLocationScraper extends WebDriverClass {
             String countyName = countyAndDetails.get(0).getText();
 
             //filter only specific counties for now
-            if(!permittedCounties.contains(countyName)) {
+            if(!permittedCounties.isEmpty() && !permittedCounties.contains(countyName)) {
                 continue;
             }
 
